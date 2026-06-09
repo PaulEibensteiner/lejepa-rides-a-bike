@@ -1,0 +1,50 @@
+{
+  "name": "Secure CUDA Agent Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  
+  "remoteUser": "developer",
+  "updateRemoteUserUID": true,
+
+  // A standard, fully-writable container. Software that agents install at runtime
+  // (apt, uv, pip, npm, ...) is confined to the container's own filesystem layers
+  // and cannot modify the host OS. The host is only reachable through the
+  // workspace bind mount that VS Code adds automatically.
+  "runArgs": [
+    "--gpus=all",
+    "--shm-size=8g"
+  ],
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "nvidia.nsight-vscode-edition",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "redhat.vscode-yaml",
+        "yy0931.save-as-root",
+        "njpwerner.autodocstring",
+        "KevinRose.vsc-python-indent",
+        "Bar.python-import-helper",
+        "donjayamanne.python-extension-pack",
+        "ms-python.vscode-python-envs",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "yzhang.markdown-all-in-one",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "eamodio.gitlens",
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools-themes",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-python.black-formatter"
+      ]
+    }
+  },
+
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb"
+  }
+}

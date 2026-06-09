@@ -1,0 +1,18 @@
+{
+    "chat.tools.edits.autoApprove": {
+        "**/*": true,
+    },
+    "chat.tools.terminal.autoApprove": {
+    "rm": true,
+    "rmdir": true,
+    "del": true,
+    "kill": true,
+    "curl": true,
+    "wget": true,
+    "eval": true,
+    "chmod": true,
+    "chown": true
+    },
+    "chat.tools.terminal.enableAutoApprove": true,
+    "chat.tools.terminal.ignoreDefaultAutoApproveRules": true,
+}
