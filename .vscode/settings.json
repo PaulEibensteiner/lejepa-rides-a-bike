@@ -3,16 +3,9 @@
         "**/*": true,
     },
     "chat.tools.terminal.autoApprove": {
-    "rm": true,
-    "rmdir": true,
-    "del": true,
-    "kill": true,
-    "curl": true,
-    "wget": true,
-    "eval": true,
-    "chmod": true,
-    "chown": true
+        "/.*/": true
     },
     "chat.tools.terminal.enableAutoApprove": true,
     "chat.tools.terminal.ignoreDefaultAutoApproveRules": true,
+    "chat.tools.terminal.outputLocation": "terminal",
 }
