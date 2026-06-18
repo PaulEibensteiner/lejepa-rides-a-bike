@@ -38,35 +38,6 @@ def _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:
     return (angle - target + np.pi) % (2.0 * np.pi) - np.pi
 
 
-def _clamp_differentials(diff: np.ndarray) -> np.ndarray:
-    """Clamp predicted per-step state increments to stable physical ranges."""
-    diff = diff.copy()
-    if diff.shape[1] == 2:
-        diff[:, 0] = np.clip(diff[:, 0], -8.0 * MODEL_DIFF_DT, 8.0 * MODEL_DIFF_DT)
-        diff[:, 1] = np.clip(diff[:, 1], -12.0 * MODEL_DIFF_DT, 12.0 * MODEL_DIFF_DT)
-        return diff
-    elif diff.shape[1] == 4:
-        diff[:, 0] = np.clip(diff[:, 0], -10.0 * MODEL_DIFF_DT, 10.0 * MODEL_DIFF_DT)
-        diff[:, 1] = np.clip(diff[:, 1], -10.0 * MODEL_DIFF_DT, 10.0 * MODEL_DIFF_DT)
-        diff[:, 2] = np.clip(diff[:, 2], -80.0 * MODEL_DIFF_DT, 80.0 * MODEL_DIFF_DT)
-        diff[:, 3] = np.clip(diff[:, 3], -80.0 * MODEL_DIFF_DT, 80.0 * MODEL_DIFF_DT)
-        return diff
-
-    diff[:, 0] = np.clip(diff[:, 0], -10.0 * MODEL_DIFF_DT, 10.0 * MODEL_DIFF_DT)
-    diff[:, 1] = np.clip(diff[:, 1], -10.0 * MODEL_DIFF_DT, 10.0 * MODEL_DIFF_DT)
-    diff[:, 2] = np.clip(diff[:, 2], -8.0 * MODEL_DIFF_DT, 8.0 * MODEL_DIFF_DT)
-    diff[:, 3] = np.clip(diff[:, 3], -12.0 * MODEL_DIFF_DT, 12.0 * MODEL_DIFF_DT)
-    diff[:, 4] = np.clip(diff[:, 4], -30.0 * MODEL_DIFF_DT, 30.0 * MODEL_DIFF_DT)
-    diff[:, 5] = np.clip(diff[:, 5], -30.0 * MODEL_DIFF_DT, 30.0 * MODEL_DIFF_DT)
-    diff[:, 6] = np.clip(diff[:, 6], -80.0 * MODEL_DIFF_DT, 80.0 * MODEL_DIFF_DT)
-    diff[:, 7] = np.clip(diff[:, 7], -80.0 * MODEL_DIFF_DT, 80.0 * MODEL_DIFF_DT)
-    if diff.shape[1] > 8:
-        diff[:, 8] = np.clip(diff[:, 8], -20.0 * MODEL_DIFF_DT, 20.0 * MODEL_DIFF_DT)
-    if diff.shape[1] > 9:
-        diff[:, 9] = np.clip(diff[:, 9], -200.0 * MODEL_DIFF_DT, 200.0 * MODEL_DIFF_DT)
-    return diff
-
-
 def _clamp_states(states: np.ndarray) -> np.ndarray:
     """Clamp imagined states to numerically stable ranges."""
     states = states.copy()
@@ -96,7 +67,8 @@ class CEMPlanner:
     n_iters        : CEM refinement iterations per plan() call
     action_bounds  : (low, high) clip bounds for steering
     dt             : simulation time-step (must match BikeEnv.dt)
-    target_heading : desired heading (rad); 0.0 = ride straight ahead
+    target_heading : desired heading (rad); None = ignore heading and use a
+                     purely lean-based cost
     w_lean         : cost weight for lean deviation
     w_heading      : cost weight for heading deviation
     w_progress     : reward weight for forward progress
@@ -115,7 +87,7 @@ class CEMPlanner:
         dt: float = _DT,
         min_std: float = 10.0,
         loss_mode: str = "direction_lean",
-        target_heading: float = 0.0,
+        target_heading: float | None = None,
         w_lean: float = 10.0,
         w_heading: float = 5.0,
         w_progress: float = 1.0,
@@ -223,9 +195,7 @@ class CEMPlanner:
 
             delta_t = predict_fn(state_t, a_t)
             # Model outputs are increments over MODEL_DIFF_DT; scale to planner dt.
-            delta_np = _clamp_differentials(
-                delta_t.cpu().numpy() * self._model_to_planner_step
-            )
+            delta_np = delta_t.cpu().numpy() * self._model_to_planner_step
 
             if delta_np.shape[1] == states.shape[1] and states.shape[1] >= 10:
                 # Full-state model: update rates then integrate positions/angles analytically.
@@ -265,15 +235,16 @@ class CEMPlanner:
 
         A "perfect upright ride in a specified direction" has:
             lean = 0  and  heading = target_heading
+
+        When ``target_heading`` is None the cost is purely lean-based.
         """
         lean = states[:, S.lean]
-        heading = states[:, S.heading]
-        heading_err = _angle_diff(heading, self.target_heading)
-
         lean_cost = self.w_lean * lean**2
-        if self.loss_mode == "lean_only":
+        if self.target_heading is None or self.loss_mode == "lean_only":
             return lean_cost
 
+        heading = states[:, S.heading]
+        heading_err = _angle_diff(heading, self.target_heading)
         heading_cost = self.w_heading * heading_err**2
         progress_bonus = -self.w_progress * BIKE_SPEED * np.cos(heading)
 

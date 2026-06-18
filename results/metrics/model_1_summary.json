@@ -2,23 +2,23 @@
   "model": "Model 1",
   "summary": {
     "num_episodes": 1,
-    "success_rate": 1.0,
-    "mean_distance": 0.05951777845621109,
-    "mean_rms_lean": 0.026471201330423355,
-    "mean_rms_heading_error": 0.08652866631746292,
-    "mean_survival_steps": 21.0
+    "success_rate": 0.0,
+    "mean_distance": 0.9861377477645874,
+    "mean_rms_lean": 0.05359175056219101,
+    "mean_rms_heading_error": 1.3624138832092285,
+    "mean_survival_steps": 201.0
   },
   "episodes": [
     {
-      "distance": 0.05951777845621109,
-      "duration": 21,
+      "distance": 0.9861377477645874,
+      "duration": 201,
       "mean_speed": 0.0,
-      "fell": false,
-      "final_lean": 0.02662249095737934,
-      "rms_lean": 0.026471201330423355,
-      "rms_heading_error": 0.08652866631746292,
-      "path_length": 0.05951777845621109,
-      "survived": true
+      "fell": true,
+      "final_lean": 0.18258869647979736,
+      "rms_lean": 0.05359175056219101,
+      "rms_heading_error": 1.3624138832092285,
+      "path_length": 0.9861377477645874,
+      "survived": false
     }
   ]
 }

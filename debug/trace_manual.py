@@ -32,7 +32,7 @@ def run(dt: float, max_steps: int = 20000) -> None:
         WHEEL_TARGET_RAD_S * WHEEL_RADIUS_M,
     )
     env = BikeEnv(max_steps=max_steps, wind_std=0.0, dt=dt)
-    policy = ManualControllerPolicy(desired_heading=0.0, torque_diversion_factor=0.0)
+    policy = ManualControllerPolicy(desired_heading=0.0, torque_diversion_std=0.0)
     policy.reset_episode()
     state, _ = env.reset(seed=7)
 

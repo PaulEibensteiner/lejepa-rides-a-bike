@@ -328,7 +328,15 @@ class PyBulletBikeDynamics:
             force=100.0,
             physicsClientId=self.client_id,
         )
-
+        # slight steer dampening to prevent spinning fork
+        p.changeDynamics(
+            self.bike_id,
+            _STEER_JOINT,
+            lateralFriction=1,
+            linearDamping=0,
+            angularDamping=40,
+            physicsClientId=self.client_id,
+        )
         p.changeDynamics(
             self.bike_id,
             _FRONT_WHEEL_JOINT,
@@ -483,12 +491,16 @@ class PyBulletBikeDynamics:
         return obs
 
     def is_fallen(self) -> bool:
-        """Return whether bike height indicates a fallen or invalid state."""
+        """Return whether we're in an invalid state"""
         assert (
             self.last_z < _FALL_Z_MAX
         ), f"Bike bounced abnormally high: last_z={self.last_z}"
         lean = self.last_state[S.lean]
-        return bool(self.last_z < _FALL_Z_MIN or abs(lean) > FALL_THRESHOLD)
+        return bool(
+            self.last_z < _FALL_Z_MIN
+            or abs(self.last_state[S.lean]) > FALL_THRESHOLD
+            or abs(self.last_state[S.steer_angle] > np.pi / 2)
+        )
 
     def close(self) -> None:
         """Disconnect the PyBullet client and clear internal simulation handles."""

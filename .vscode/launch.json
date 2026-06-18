@@ -16,7 +16,7 @@
                 "--model", "1",
                 "--num-episodes", "1",
                 "--epochs", "1",
-                "--eval-episodes", "1",
+                "--eval-episodes", "0",
                 "--eval-max-steps", "20",
                 "--batch-size", "16",
                 "--skip-plots",
@@ -34,12 +34,13 @@
             "args": [
                 "--model", "1",
                 "--num-episodes", "50",
-                "--epochs", "50",
+                "--epochs", "100",
                 "--eval-episodes", "1",
-                "--eval-max-steps", "20",
+                "--eval-max-steps", "10000",
                 "--batch-size", "50",
                 "--skip-plots",
-                "--wind-std", "0"
+                "--wind-std", "0",
+                "--manual-data-fraction", "0.25"
             ]
         },
         {
@@ -55,8 +56,9 @@
                 "--wind-std", "0",
                 "--max-steps", "10000",
                 "--c1", "-1",
-                "--c2", "40",
-                "--c3", "40"
+                "--c2", "100",
+                "--c3", "100",
+                "--sigma", "0.5"
             ]
         }
     ]

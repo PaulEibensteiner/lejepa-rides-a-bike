@@ -113,6 +113,38 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -154,6 +186,14 @@
         "isExtraImport": true,
         "importPath": "torch",
         "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "optim",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
         "detail": "torch",
         "documentation": {}
     },
@@ -239,6 +279,38 @@
     },
     {
         "label": "patched_bike_urdf_path",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "_STEER_JOINT",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "_FRONT_WHEEL_JOINT",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "_BACK_WHEEL_JOINT",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
         "importPath": "bike.dynamics",
         "description": "bike.dynamics",
         "isExtraImport": true,
@@ -391,6 +463,46 @@
     },
     {
         "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "_scale_action_for_model",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "_scale_state_differentials_for_model",
         "importPath": "bike.models",
         "description": "bike.models",
         "isExtraImport": true,
@@ -631,6 +743,38 @@
     },
     {
         "label": "S_RATE",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
         "importPath": "bike.state",
         "description": "bike.state",
         "isExtraImport": true,
@@ -1001,6 +1145,94 @@
         "documentation": {}
     },
     {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "StickyGaussianTorquePolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "build_tensors",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_dataset",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "StickyGaussianTorquePolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "build_tensors",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_dataset",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
         "label": "ManualControllerPolicy",
         "importPath": "train",
         "description": "train",
@@ -1142,6 +1374,70 @@
         "description": "train",
         "isExtraImport": true,
         "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "TensorDataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "TensorDataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "TensorDataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "TensorDataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
         "documentation": {}
     },
     {
@@ -1362,14 +1658,6 @@
         "documentation": {}
     },
     {
-        "label": "animate_episode_pybullet",
-        "importPath": "bike.visualization",
-        "description": "bike.visualization",
-        "isExtraImport": true,
-        "detail": "bike.visualization",
-        "documentation": {}
-    },
-    {
         "label": "plot_metrics_bar",
         "importPath": "bike.visualization",
         "description": "bike.visualization",
@@ -1457,54 +1745,6 @@
         "importPath": "torch.optim",
         "description": "torch.optim",
         "detail": "torch.optim",
-        "documentation": {}
-    },
-    {
-        "label": "DataLoader",
-        "importPath": "torch.utils.data",
-        "description": "torch.utils.data",
-        "isExtraImport": true,
-        "detail": "torch.utils.data",
-        "documentation": {}
-    },
-    {
-        "label": "TensorDataset",
-        "importPath": "torch.utils.data",
-        "description": "torch.utils.data",
-        "isExtraImport": true,
-        "detail": "torch.utils.data",
-        "documentation": {}
-    },
-    {
-        "label": "DataLoader",
-        "importPath": "torch.utils.data",
-        "description": "torch.utils.data",
-        "isExtraImport": true,
-        "detail": "torch.utils.data",
-        "documentation": {}
-    },
-    {
-        "label": "TensorDataset",
-        "importPath": "torch.utils.data",
-        "description": "torch.utils.data",
-        "isExtraImport": true,
-        "detail": "torch.utils.data",
-        "documentation": {}
-    },
-    {
-        "label": "DataLoader",
-        "importPath": "torch.utils.data",
-        "description": "torch.utils.data",
-        "isExtraImport": true,
-        "detail": "torch.utils.data",
-        "documentation": {}
-    },
-    {
-        "label": "TensorDataset",
-        "importPath": "torch.utils.data",
-        "description": "torch.utils.data",
-        "isExtraImport": true,
-        "detail": "torch.utils.data",
         "documentation": {}
     },
     {
@@ -1628,7 +1868,7 @@
         "kind": 5,
         "importPath": "bike.cem",
         "description": "bike.cem",
-        "peekOfCode": "_DT = MODEL_DIFF_DT  # planner rollout step in model time (0.02s)\n_INIT_VAR = 25.0\n_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_differentials(diff: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp predicted per-step state increments to stable physical ranges.\"\"\"\n    diff = diff.copy()\n    if diff.shape[1] == 2:",
+        "peekOfCode": "_DT = MODEL_DIFF_DT  # planner rollout step in model time (0.02s)\n_INIT_VAR = 25.0\n_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_states(states: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp imagined states to numerically stable ranges.\"\"\"\n    states = states.copy()\n    states[:, S.lean] = np.clip(states[:, S.lean], -FALL_THRESHOLD, FALL_THRESHOLD)",
         "detail": "bike.cem",
         "documentation": {}
     },
@@ -1637,7 +1877,7 @@
         "kind": 5,
         "importPath": "bike.cem",
         "description": "bike.cem",
-        "peekOfCode": "_INIT_VAR = 25.0\n_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_differentials(diff: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp predicted per-step state increments to stable physical ranges.\"\"\"\n    diff = diff.copy()\n    if diff.shape[1] == 2:\n        diff[:, 0] = np.clip(diff[:, 0], -8.0 * MODEL_DIFF_DT, 8.0 * MODEL_DIFF_DT)",
+        "peekOfCode": "_INIT_VAR = 25.0\n_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_states(states: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp imagined states to numerically stable ranges.\"\"\"\n    states = states.copy()\n    states[:, S.lean] = np.clip(states[:, S.lean], -FALL_THRESHOLD, FALL_THRESHOLD)\n    states[:, S.heading] = (states[:, S.heading] + np.pi) % (2.0 * np.pi) - np.pi",
         "detail": "bike.cem",
         "documentation": {}
     },
@@ -1646,7 +1886,7 @@
         "kind": 5,
         "importPath": "bike.cem",
         "description": "bike.cem",
-        "peekOfCode": "_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_differentials(diff: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp predicted per-step state increments to stable physical ranges.\"\"\"\n    diff = diff.copy()\n    if diff.shape[1] == 2:\n        diff[:, 0] = np.clip(diff[:, 0], -8.0 * MODEL_DIFF_DT, 8.0 * MODEL_DIFF_DT)\n        diff[:, 1] = np.clip(diff[:, 1], -12.0 * MODEL_DIFF_DT, 12.0 * MODEL_DIFF_DT)",
+        "peekOfCode": "_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_states(states: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp imagined states to numerically stable ranges.\"\"\"\n    states = states.copy()\n    states[:, S.lean] = np.clip(states[:, S.lean], -FALL_THRESHOLD, FALL_THRESHOLD)\n    states[:, S.heading] = (states[:, S.heading] + np.pi) % (2.0 * np.pi) - np.pi\n    states[:, S.x_dot] = np.clip(states[:, S.x_dot], -10.0, 10.0)",
         "detail": "bike.cem",
         "documentation": {}
     },
@@ -1683,6 +1923,15 @@
         "importPath": "bike.environment",
         "description": "bike.environment",
         "peekOfCode": "class BikeEnv(gym.Env):\n    \"\"\"Simulated velocity-aware bicycle environment.\"\"\"\n    metadata = {\"render_modes\": [\"human\"]}\n    STATE_DIM = LATENT_DIM  # 10\n    ACTION_DIM = 1\n    def __init__(\n        self,\n        render_mode: str | None = None,\n        max_steps: int = 15000,\n        dt: float = 0.001,",
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "detailed_gymspace_validation",
+        "kind": 2,
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "peekOfCode": "def detailed_gymspace_validation(\n    space: spaces.Space, instance, name: str = \"\", all_keys_mandatory: bool = False\n):\n    \"\"\"\n    Validates that the provided instance matches the expected action space.\n    Raises ValueError if the instance does not match the action space.\n    \"\"\"\n    if isinstance(space, spaces.Dict):\n        if not isinstance(instance, dict):\n            raise ValueError(",
         "detail": "bike.environment",
         "documentation": {}
     },
@@ -1727,7 +1976,7 @@
         "kind": 6,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "class SimpleLeanHeadingModel(nn.Module):\n    \"\"\"Model 1: 3-layer network predicting lean and heading changes only.\n    Useful for understanding whether position information is necessary.\n    \"\"\"\n    INPUT_INDICES = [\n        S.heading,\n        S.lean,\n        S.lean_dot,\n        S.steer_angle,\n        S.steer_rate,",
+        "peekOfCode": "class SimpleLeanHeadingModel(nn.Module):\n    \"\"\"Model 1\"\"\"\n    INPUT_INDICES = [\n        S.heading,\n        S.lean,\n        S.lean_dot,\n        S.steer_angle,\n        S.steer_rate,\n    ]\n    OUTPUT_INDICES = INPUT_INDICES",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1754,7 +2003,7 @@
         "kind": 2,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "def prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()\n    err[:, heading_idx] = _wrap_to_pi_torch(err[:, heading_idx])\n    sq = err.square()\n    if pred.shape[-1] >= 8:\n        weights = pred.new_ones(pred.shape[-1])\n        sq = sq * weights",
+        "peekOfCode": "def prediction_loss(\n    pred: torch.Tensor,\n    target: torch.Tensor,\n    heading_col: int | None = None,\n) -> torch.Tensor:\n    \"\"\"Per-channel std-normalized MSE with wrapped heading-delta error.\n    Each output channel's squared error is divided by that channel's target\n    variance so small-magnitude channels (e.g. Δheading) contribute on equal\n    footing with large-magnitude channels (e.g. Δsteer_rate).\n    Parameters",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1763,7 +2012,7 @@
         "kind": 5,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "logger = logging.getLogger(__name__)\n# ── constants dimension ─────────────────────────────────────────────\nLATENT_DIM = 10  # [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate]\nACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# ── constants dimension ─────────────────────────────────────────────\nLATENT_DIM = 10  # [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate]\nACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1772,7 +2021,7 @@
         "kind": 5,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "LATENT_DIM = 10  # [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate]\nACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target",
+        "peekOfCode": "LATENT_DIM = 10  # [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate]\nACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(\n    pred: torch.Tensor,\n    target: torch.Tensor,",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1781,7 +2030,7 @@
         "kind": 5,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "ACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3",
+        "peekOfCode": "ACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(\n    pred: torch.Tensor,\n    target: torch.Tensor,\n    heading_col: int | None = None,",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1790,7 +2039,7 @@
         "kind": 5,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "MODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()",
+        "peekOfCode": "MODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(\n    pred: torch.Tensor,\n    target: torch.Tensor,\n    heading_col: int | None = None,\n) -> torch.Tensor:",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1799,7 +2048,7 @@
         "kind": 5,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "DIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()\n    err[:, heading_idx] = _wrap_to_pi_torch(err[:, heading_idx])",
+        "peekOfCode": "DIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(\n    pred: torch.Tensor,\n    target: torch.Tensor,\n    heading_col: int | None = None,\n) -> torch.Tensor:\n    \"\"\"Per-channel std-normalized MSE with wrapped heading-delta error.",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1808,7 +2057,7 @@
         "kind": 5,
         "importPath": "bike.models",
         "description": "bike.models",
-        "peekOfCode": "ACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()\n    err[:, heading_idx] = _wrap_to_pi_torch(err[:, heading_idx])\n    sq = err.square()",
+        "peekOfCode": "ACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(\n    pred: torch.Tensor,\n    target: torch.Tensor,\n    heading_col: int | None = None,\n) -> torch.Tensor:\n    \"\"\"Per-channel std-normalized MSE with wrapped heading-delta error.\n    Each output channel's squared error is divided by that channel's target",
         "detail": "bike.models",
         "documentation": {}
     },
@@ -1891,6 +2140,78 @@
         "description": "bike.visualization",
         "peekOfCode": "def plot_wind_sweep(wind_results: dict[str, dict[str, float]], save_path: Path) -> None:\n    _ensure_parent(save_path)\n    fig, ax = plt.subplots(figsize=(8, 5))\n    for model_name, by_wind in wind_results.items():\n        xs = sorted(float(k) for k in by_wind.keys())\n        ys = [by_wind[f\"{x:.2f}\"] for x in xs]\n        ax.plot(xs, ys, marker=\"o\", label=model_name, color=_model_color(model_name))\n    ax.set_title(\"Wind Sweep: Survival Rate vs wind_std\")\n    ax.set_xlabel(\"wind_std\")\n    ax.set_ylabel(\"survival_rate\")",
         "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "debug.check_heading_dot",
+        "description": "debug.check_heading_dot",
+        "peekOfCode": "def run(dt: float = 0.001, max_steps: int = 6000) -> None:\n    env = BikeEnv(max_steps=max_steps, wind_std=0.0, dt=dt)\n    policy = ManualControllerPolicy(desired_heading=0.0, torque_diversion_std=0.0)\n    policy.reset_episode()\n    state, _ = env.reset(seed=7)\n    prev_heading = float(state[S.heading])\n    max_abs_err = 0.0\n    max_fwd_z = 0.0\n    for step in range(max_steps):\n        action = policy(state)",
+        "detail": "debug.check_heading_dot",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "debug.check_heading_dot",
+        "description": "debug.check_heading_dot",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef _wrap(a: float) -> float:\n    return (a + np.pi) % (2.0 * np.pi) - np.pi\ndef run(dt: float = 0.001, max_steps: int = 6000) -> None:\n    env = BikeEnv(max_steps=max_steps, wind_std=0.0, dt=dt)\n    policy = ManualControllerPolicy(desired_heading=0.0, torque_diversion_std=0.0)\n    policy.reset_episode()\n    state, _ = env.reset(seed=7)\n    prev_heading = float(state[S.heading])\n    max_abs_err = 0.0",
+        "detail": "debug.check_heading_dot",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "debug.check_heading_dot_source",
+        "description": "debug.check_heading_dot_source",
+        "peekOfCode": "def run(dt: float = 0.001, max_steps: int = 4000) -> None:\n    env = BikeEnv(max_steps=max_steps, wind_std=0.0, dt=dt, detect_falls=True)\n    state, _ = env.reset(seed=3)\n    cid = env._dyn.client_id\n    bike = env._dyn.bike_id\n    L = _wheelbase(env)\n    logger.info(\"measured wheelbase L = %.4f m\", L)\n    rng = np.random.default_rng(0)\n    torque = 0.0\n    for step in range(max_steps):",
+        "detail": "debug.check_heading_dot_source",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "debug.check_heading_dot_source",
+        "description": "debug.check_heading_dot_source",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef _wheelbase(env: BikeEnv) -> float:\n    \"\"\"Distance between front and back wheel joint frames in the bike base frame.\"\"\"\n    cid = env._dyn.client_id\n    bike = env._dyn.bike_id\n    front = np.array(p.getJointInfo(bike, _FRONT_WHEEL_JOINT, physicsClientId=cid)[14])\n    back = np.array(p.getJointInfo(bike, _BACK_WHEEL_JOINT, physicsClientId=cid)[14])\n    steer = np.array(p.getJointInfo(bike, _STEER_JOINT, physicsClientId=cid)[14])\n    # Front wheel hangs off the steer link; sum parent-relative offsets along x.\n    return float(abs((front[0] + steer[0]) - back[0]))",
+        "detail": "debug.check_heading_dot_source",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "debug.diagnose_heading_zero",
+        "description": "debug.diagnose_heading_zero",
+        "peekOfCode": "def main() -> None:\n    env = BikeEnv(max_steps=15000, wind_std=0.0)\n    cis = max(1, round(MODEL_DIFF_DT / env.dt))\n    policy = StickyGaussianTorquePolicy(p_new=0.1, sigma=20.0)\n    s, a, ns = collect_dataset(\n        env, policy, n_episodes=20, base_seed=0, control_interval_steps=cis\n    )\n    env.close()\n    s_t, a_t, d_t = build_tensors(s, a, ns)\n    s_np = s_t.numpy()",
+        "detail": "debug.diagnose_heading_zero",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "debug.diagnose_heading_zero",
+        "description": "debug.diagnose_heading_zero",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef main() -> None:\n    env = BikeEnv(max_steps=15000, wind_std=0.0)\n    cis = max(1, round(MODEL_DIFF_DT / env.dt))\n    policy = StickyGaussianTorquePolicy(p_new=0.1, sigma=20.0)\n    s, a, ns = collect_dataset(\n        env, policy, n_episodes=20, base_seed=0, control_interval_steps=cis\n    )\n    env.close()\n    s_t, a_t, d_t = build_tensors(s, a, ns)",
+        "detail": "debug.diagnose_heading_zero",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "debug.heading_row_contributions",
+        "description": "debug.heading_row_contributions",
+        "peekOfCode": "def main() -> None:\n    env = BikeEnv(max_steps=15000, wind_std=0.0)\n    cis = max(1, round(MODEL_DIFF_DT / env.dt))\n    policy = StickyGaussianTorquePolicy(p_new=0.1, sigma=20.0)\n    s, a, ns = collect_dataset(\n        env, policy, n_episodes=20, base_seed=0, control_interval_steps=cis\n    )\n    env.close()\n    s_t, a_t, d_t = build_tensors(s, a, ns)\n    # Train a fresh Model 1 (single linear layer) on this data.",
+        "detail": "debug.heading_row_contributions",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "debug.heading_row_contributions",
+        "description": "debug.heading_row_contributions",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef main() -> None:\n    env = BikeEnv(max_steps=15000, wind_std=0.0)\n    cis = max(1, round(MODEL_DIFF_DT / env.dt))\n    policy = StickyGaussianTorquePolicy(p_new=0.1, sigma=20.0)\n    s, a, ns = collect_dataset(\n        env, policy, n_episodes=20, base_seed=0, control_interval_steps=cis\n    )\n    env.close()\n    s_t, a_t, d_t = build_tensors(s, a, ns)",
+        "detail": "debug.heading_row_contributions",
         "documentation": {}
     },
     {
@@ -2978,7 +3299,7 @@
         "kind": 6,
         "importPath": "train",
         "description": "train",
-        "peekOfCode": "class StickyGaussianTorquePolicy:\n    \"\"\"Stateful exploration policy with temporally correlated torque.\n    Per decision step: with probability p_new sample torque ~ N(0, sigma),\n    otherwise keep previous torque. The first step of each episode uses 0 torque.\n    \"\"\"\n    def __init__(self, p_new: float = 0.01, sigma: float = 10.0) -> None:\n        self.p_new = float(p_new)\n        self.sigma = float(sigma)\n        self.prev_torque = 0.0\n        self._first_step = True",
+        "peekOfCode": "class StickyGaussianTorquePolicy:\n    \"\"\"Stateful exploration policy with temporally correlated torque.\n    Per decision step: with probability p_new sample torque ~ N(0, sigma),\n    otherwise keep previous torque. The first step of each episode uses 0 torque.\n    \"\"\"\n    def __init__(self, p_new: float = 0.01, sigma: float = 0.5) -> None:\n        self.p_new = float(p_new)\n        self.sigma = float(sigma)\n        self.prev_torque = 0.0\n        self._first_step = True",
         "detail": "train",
         "documentation": {}
     },
@@ -2987,7 +3308,7 @@
         "kind": 6,
         "importPath": "train",
         "description": "train",
-        "peekOfCode": "class ManualControllerPolicy:\n    \"\"\"Reference-style heading-to-lean controller for data collection.\"\"\"\n    def __init__(\n        self,\n        desired_heading: float | None = 0.0,\n        c1: float = -1.0,\n        c2: float = 100.0,\n        c3: float = 100.0,\n        torque_diversion_factor: float = 10,\n    ) -> None:",
+        "peekOfCode": "class ManualControllerPolicy:\n    \"\"\"Reference-style heading-to-lean controller for data collection.\"\"\"\n    def __init__(\n        self,\n        desired_heading: float | None = None,\n        c1: float = -1.0,\n        c2: float = 100.0,\n        c3: float = 100.0,\n        torque_diversion_std: float = 1,\n    ) -> None:",
         "detail": "train",
         "documentation": {}
     },
@@ -3041,7 +3362,7 @@
         "kind": 2,
         "importPath": "train",
         "description": "train",
-        "peekOfCode": "def train_world_model(\n    model: SubsetModel,\n    shared_data,\n    *,\n    epochs: int,\n    batch_size: int,\n    lr: float,\n    device: torch.device,\n) -> tuple[dict[str, list[float]], float]:\n    print(\"\\n[Phase 1] Training for {epochs} epochs using shared random dataset...\")",
+        "peekOfCode": "def train_world_model(\n    model: SubsetModel,\n    shared_data,\n    *,\n    epochs: int,\n    batch_size: int,\n    lr: float,\n    device: torch.device,\n) -> tuple[dict[str, list[float]], float]:\n    print(f\"\\n[Phase 1] Training for {epochs} epochs using shared random dataset...\")",
         "detail": "train",
         "documentation": {}
     },
@@ -3086,7 +3407,7 @@
         "kind": 2,
         "importPath": "train",
         "description": "train",
-        "peekOfCode": "def collect_data(args) -> dict[str, Any]:\n    # Collect one shared random dataset and one shared train/val split\n    # so every selected model is trained and evaluated on the same data.\n    pre_env = BikeEnv(max_steps=15000, wind_std=args.wind_std)\n    data_control_interval_steps = max(1, int(round(MODEL_DIFF_DT / pre_env.dt)))\n    dataset_policy = StickyGaussianTorquePolicy(p_new=0.1, sigma=20.0)\n    manual_policy = ManualControllerPolicy(desired_heading=0.0)\n    n_manual = int(round(args.num_episodes * args.manual_data_fraction))\n    n_sticky = max(0, args.num_episodes - n_manual)\n    print(",
+        "peekOfCode": "def collect_data(args) -> dict[str, Any]:\n    # Collect one shared random dataset and one shared train/val split\n    # so every selected model is trained and evaluated on the same data.\n    pre_env = BikeEnv(max_steps=10_000, wind_std=args.wind_std)\n    data_control_interval_steps = max(1, int(round(MODEL_DIFF_DT / pre_env.dt)))\n    dataset_policy = StickyGaussianTorquePolicy()\n    manual_policy = ManualControllerPolicy()\n    n_manual = int(round(args.num_episodes * args.manual_data_fraction))\n    n_sticky = max(0, args.num_episodes - n_manual)\n    print(",
         "detail": "train",
         "documentation": {}
     },

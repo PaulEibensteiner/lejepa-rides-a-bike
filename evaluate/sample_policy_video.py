@@ -7,7 +7,6 @@ from pathlib import Path
 import numpy as np
 
 from bike.environment import BikeEnv
-from bike.visualization import animate_episode_pybullet
 from train import (
     ManualControllerPolicy,
     StickyGaussianTorquePolicy,

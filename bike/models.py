@@ -69,17 +69,33 @@ def _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:
     return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi
 
 
-def prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
-    """MSE with wrapped heading-delta error to avoid angle discontinuities."""
+def prediction_loss(
+    pred: torch.Tensor,
+    target: torch.Tensor,
+    heading_col: int | None = None,
+) -> torch.Tensor:
+    """Per-channel std-normalized MSE with wrapped heading-delta error.
+
+    Each output channel's squared error is divided by that channel's target
+    variance so small-magnitude channels (e.g. Δheading) contribute on equal
+    footing with large-magnitude channels (e.g. Δsteer_rate).
+
+    Parameters
+    ----------
+    pred : predicted deltas, shape (batch, n_out).
+    target : ground-truth deltas, shape (batch, n_out).
+    heading_col : column index of the heading-delta channel whose error is
+        wrapped to (-pi, pi]. If None, no channel is wrapped.
+    """
     err = pred - target
-    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3
-    err = err.clone()
-    err[:, heading_idx] = _wrap_to_pi_torch(err[:, heading_idx])
+    if heading_col is not None:
+        err = err.clone()
+        err[:, heading_col] = _wrap_to_pi_torch(err[:, heading_col])
 
     sq = err.square()
-    if pred.shape[-1] >= 8:
-        weights = pred.new_ones(pred.shape[-1])
-        sq = sq * weights
+    # Normalize each channel by its target variance to equalize contributions.
+    var = target.var(dim=0, keepdim=True, unbiased=False)
+    sq = sq / (var + 1e-8)
 
     return torch.mean(sq)
 
@@ -220,10 +236,7 @@ class SIGReg(nn.Module):
 
 
 class SimpleLeanHeadingModel(nn.Module):
-    """Model 1: 3-layer network predicting lean and heading changes only.
-
-    Useful for understanding whether position information is necessary.
-    """
+    """Model 1"""
 
     INPUT_INDICES = [
         S.heading,
@@ -233,7 +246,7 @@ class SimpleLeanHeadingModel(nn.Module):
         S.steer_rate,
     ]
     OUTPUT_INDICES = INPUT_INDICES
-    L1_WEIGHT = 1e-1
+    L1_WEIGHT = 1e-4
 
     def __init__(self) -> None:
         super().__init__()
@@ -282,13 +295,6 @@ class SimpleLeanHeadingModel(nn.Module):
         return message
 
     def predict_delta(self, state: torch.Tensor, action: torch.Tensor) -> torch.Tensor:
-        """Predict [Δlean, Δheading] from full state + action.
-
-        Parameters
-        ----------
-        state  : (..., LATENT_DIM)  [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate]
-        action : (..., ACTION_DIM)  [steering]
-        """
         state = _scale_state_differentials_for_model(_augment_state(state))
         lean_heading_dots = state[
             ...,
@@ -301,7 +307,14 @@ class SimpleLeanHeadingModel(nn.Module):
         self, pred: torch.Tensor, target: torch.Tensor
     ) -> Tuple[torch.Tensor, torch.Tensor]:
         """Compute the loss for the model's subset of output channels."""
-        pred_loss = prediction_loss(pred, target[..., self.OUTPUT_INDICES])
+        heading_col = (
+            self.OUTPUT_INDICES.index(S.heading)
+            if S.heading in self.OUTPUT_INDICES
+            else None
+        )
+        pred_loss = prediction_loss(
+            pred, target[..., self.OUTPUT_INDICES], heading_col=heading_col
+        )
         l1_loss = torch.zeros_like(pred_loss)
         for param in self.parameters():
             l1_loss = l1_loss + param.abs().sum()

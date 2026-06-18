@@ -60,7 +60,7 @@ class StickyGaussianTorquePolicy:
     otherwise keep previous torque. The first step of each episode uses 0 torque.
     """
 
-    def __init__(self, p_new: float = 0.01, sigma: float = 10.0) -> None:
+    def __init__(self, p_new: float = 0.01, sigma: float = 0.5) -> None:
         self.p_new = float(p_new)
         self.sigma = float(sigma)
         self.prev_torque = 0.0
@@ -87,11 +87,11 @@ class ManualControllerPolicy:
 
     def __init__(
         self,
-        desired_heading: float | None = 0.0,
+        desired_heading: float | None = None,
         c1: float = -1.0,
         c2: float = 100.0,
         c3: float = 100.0,
-        torque_diversion_factor: float = 10,
+        torque_diversion_std: float = 1,
     ) -> None:
         self.desired_heading = desired_heading
         self.c1 = float(c1)
@@ -99,8 +99,8 @@ class ManualControllerPolicy:
         self.c3 = float(c3)
         self.divert_steps = 1000
         self.correct_steps = 500
-        self.torque_diversion_factor = float(torque_diversion_factor)
-        self.torque_diversion = self.torque_diversion_factor
+        self.torque_diversion_factor = float(torque_diversion_std)
+        self.torque_diversion = random.normalvariate(0, self.torque_diversion_factor)
 
     def reset_episode(self) -> None:
         return None
@@ -129,7 +129,9 @@ class ManualControllerPolicy:
             # both 0
             self.divert_steps = 800
             self.correct_steps = 500
-            self.torque_diversion = self.torque_diversion_factor
+            self.torque_diversion = random.normalvariate(
+                0, self.torque_diversion_factor
+            )
 
         torque = float(np.clip(torque, -MAX_STEER, MAX_STEER))
         return np.array([torque], dtype=np.float32)
@@ -255,7 +257,7 @@ def train_world_model(
     lr: float,
     device: torch.device,
 ) -> tuple[dict[str, list[float]], float]:
-    print("\n[Phase 1] Training for {epochs} epochs using shared random dataset...")
+    print(f"\n[Phase 1] Training for {epochs} epochs using shared random dataset...")
     print(f"  Random policy: {shared_data['random_summary']}")
     print(f"  Dataset size : {shared_data['num_transitions']} transitions")
 
@@ -390,7 +392,11 @@ def validate_world_model_cem(
     sep = "=" * 60
     print(f"\n{sep}\n  {model_name}\n{sep}")
 
-    eval_env = BikeEnv(max_steps=eval_max_steps, wind_std=wind_std)
+    eval_env = BikeEnv(
+        max_steps=eval_max_steps,
+        wind_std=wind_std,
+        video_path=results_dir / "videos" / "eval.mp4",
+    )
 
     model_dir = results_dir / f"model_{model_key}"
     data_dir = results_dir / "data"
@@ -401,7 +407,7 @@ def validate_world_model_cem(
     control_interval_steps = max(1, int(round(MODEL_DIFF_DT / eval_env.dt)))
     planner = CEMPlanner(
         model,
-        target_heading=0.0,
+        target_heading=None,
         dt=MODEL_DIFF_DT,
         horizon=200,
         loss_mode=cem_loss,
@@ -517,10 +523,10 @@ def collect_data(args) -> dict[str, Any]:
 
     # Collect one shared random dataset and one shared train/val split
     # so every selected model is trained and evaluated on the same data.
-    pre_env = BikeEnv(max_steps=15000, wind_std=args.wind_std)
+    pre_env = BikeEnv(max_steps=10_000, wind_std=args.wind_std)
     data_control_interval_steps = max(1, int(round(MODEL_DIFF_DT / pre_env.dt)))
-    dataset_policy = StickyGaussianTorquePolicy(p_new=0.1, sigma=20.0)
-    manual_policy = ManualControllerPolicy(desired_heading=0.0)
+    dataset_policy = StickyGaussianTorquePolicy()
+    manual_policy = ManualControllerPolicy()
 
     n_manual = int(round(args.num_episodes * args.manual_data_fraction))
     n_sticky = max(0, args.num_episodes - n_manual)
@@ -647,19 +653,20 @@ def main() -> None:
             lr=args.lr,
             device=device,
         )
-        outputs[model_name] = validate_world_model_cem(
-            model,
-            history,
-            model_name,
-            model_key,
-            eval_episodes=args.eval_episodes,
-            seed=args.seed,
-            results_dir=results_dir,
-            eval_max_steps=args.eval_max_steps,
-            wind_std=args.wind_std,
-            cem_loss=args.cem_loss,
-            val_mse=mse,
-        )
+        if args.eval_episodes > 0:
+            outputs[model_name] = validate_world_model_cem(
+                model,
+                history,
+                model_name,
+                model_key,
+                eval_episodes=args.eval_episodes,
+                seed=args.seed,
+                results_dir=results_dir,
+                eval_max_steps=args.eval_max_steps,
+                wind_std=args.wind_std,
+                cem_loss=args.cem_loss,
+                val_mse=mse,
+            )
 
     model_summaries = {
         name: out["eval_metrics"].to_summary_dict() for name, out in outputs.items()
