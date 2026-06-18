@@ -1,9 +1,9 @@
-"""Gymnasium environment for bicycle riding (constant-speed model).
+"""Gymnasium environment for bicycle riding.
 
-Observation (4-D): [x, y, lean, heading]
-    — speed is fixed (BIKE_SPEED) and is **not** part of the observation.
+Observation (10-D): [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot,
+                     steer_angle, steer_rate]
 
-Action (1-D): [steering_angle]  ∈ [-MAX_STEER, MAX_STEER]
+Action (1-D): [steering_torque]  ∈ [-MAX_STEER, MAX_STEER]
 
 Reward per step:
     + BIKE_SPEED * cos(heading)   # forward-progress bonus
@@ -12,7 +12,7 @@ Reward per step:
     - 100  (one-off on fall)
 
 Episode ends when:
-    • |lean| > π/4  (fallen)           → terminated = True
+    • |lean| > 5π/16 = 56.25°(fallen)      → terminated = True
     • step count ≥ max_steps           → truncated  = True
 
 Wind: additive Gaussian noise on lean and heading at each physics step,
@@ -28,30 +28,31 @@ import gymnasium as gym
 from gymnasium import spaces
 
 from bike.dynamics import (
-    step as dyn_step,
-    is_fallen,
+    PyBulletBikeDynamics,
     MAX_STEER,
     FALL_THRESHOLD,
     BIKE_SPEED,
     LATENT_DIM,
 )
+from bike.state import S
 
 
 class BikeEnv(gym.Env):
-    """Simulated constant-speed bicycle environment."""
+    """Simulated velocity-aware bicycle environment."""
 
     metadata = {"render_modes": ["human"]}
 
-    STATE_DIM = LATENT_DIM   # 4
+    STATE_DIM = LATENT_DIM  # 10
     ACTION_DIM = 1
 
     def __init__(
         self,
         render_mode: str | None = None,
-        max_steps: int = 500,
-        dt: float = 0.05,
+        max_steps: int = 15000,
+        dt: float = 0.001,
         detect_falls: bool = True,
         wind_std: float = 0.02,
+        video_path: str | None = None,
     ) -> None:
         super().__init__()
 
@@ -60,19 +61,51 @@ class BikeEnv(gym.Env):
         self.dt = dt
         self.detect_falls = detect_falls
         self.wind_std = wind_std
+        self._dyn = PyBulletBikeDynamics(video_path)
 
         self.action_space = spaces.Box(
             low=-MAX_STEER, high=MAX_STEER, shape=(1,), dtype=np.float32
         )
-        # [x, y] unbounded; lean in (-π/4, π/4); heading in (-π, π)
+        # Position is bounded by total travel distance; planar speed by BIKE_SPEED.
         self.observation_space = spaces.Box(
-            low=np.array([-np.inf, -np.inf, -FALL_THRESHOLD, -np.pi], dtype=np.float32),
-            high=np.array([np.inf, np.inf, FALL_THRESHOLD, np.pi], dtype=np.float32),
+            low=np.array(
+                [
+                    -max_steps
+                    * BIKE_SPEED
+                    * self.dt,  # x, no more than what we can move in the given steps
+                    -max_steps * BIKE_SPEED * self.dt,  # y
+                    -FALL_THRESHOLD - np.pi / 8.0,  # lean
+                    -np.pi,  # heading, no more than 180 deg
+                    -BIKE_SPEED - 1e-1,  # x_dot, no more than bike speed
+                    -BIKE_SPEED - 1e-1,  # y_dot, no more than bike speed
+                    -np.pi,  # lean_dot, no more than 180 deg / s
+                    -np.pi / 2,  # heading_dot, no more than 90 deg / s
+                    -np.pi / 2,  # steer_angle, no more than 90 deg
+                    -10
+                    * np.pi
+                    / 2,  # steer_rate, no more than 90 deg in a tenth of a second
+                ],
+                dtype=np.float32,
+            ),
+            high=np.array(
+                [
+                    max_steps * BIKE_SPEED * self.dt,  # x
+                    max_steps * BIKE_SPEED * self.dt,  # y
+                    FALL_THRESHOLD + np.pi / 8.0,  # lean
+                    np.pi,  # heading
+                    BIKE_SPEED + 1e-1,  # x_dot
+                    BIKE_SPEED + 1e-1,  # y_dot
+                    np.pi,  # lean_dot
+                    np.pi / 2,  # heading_dot
+                    np.pi / 2,  # steer_angle
+                    10 * np.pi / 2,  # steer_rate
+                ],
+                dtype=np.float32,
+            ),
         )
 
         self._state: np.ndarray = np.zeros(self.STATE_DIM, dtype=np.float32)
         self._step_count: int = 0
-        self._pb_client: int | None = None
 
     # ------------------------------------------------------------------
     # Gymnasium API
@@ -86,20 +119,37 @@ class BikeEnv(gym.Env):
     ) -> tuple[np.ndarray, dict]:
         super().reset(seed=seed)
         lean = self.np_random.uniform(-0.05, 0.05)
-        heading = self.np_random.uniform(-0.1, 0.1)
-        self._state = np.array([0.0, 0.0, lean, heading], dtype=np.float32)
+        lean_dot = 0.0
+        heading = self.np_random.uniform(-np.pi / 2, np.pi / 2)
+        heading_dot = 0.0
+        x = 0.0
+        y = 0.0
+        x_dot = BIKE_SPEED * np.cos(heading)  # TODO Change this
+        y_dot = BIKE_SPEED * np.sin(heading)  # TODO change this
+        self._state = np.array(
+            [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, 0.0, 0.0],
+            dtype=np.float32,
+        )
+        self._state = self._dyn.reset(self._state)
         self._step_count = 0
+        # assert self.observation_space.contains(self._state)
         return self._state.copy(), {}
 
-    def step(
-        self, action: np.ndarray
-    ) -> tuple[np.ndarray, float, bool, bool, dict]:
+    def step(self, action: np.ndarray) -> tuple[np.ndarray, float, bool, bool, dict]:
+        # assert self.action_space.contains(action)
         steering = float(np.asarray(action, dtype=np.float32).flatten()[0])
 
-        self._state = dyn_step(self._state, steering, self.dt, self.wind_std)
+        # assert self.observation_space.contains(self._state)
+        _old_state = self._state
+        self._state = self._dyn.step(self._state, steering, self.dt, self.wind_std)
+        # assert self.observation_space.contains(self._state), (
+        #     f"State out of bounds: lean={self._state[S.lean]},"
+        #     f" cos(lean)={np.cos(self._state[S.lean])},"
+        #     f" last_z={self._dyn.last_z}, wind_std={self.wind_std}"
+        # )
         self._step_count += 1
 
-        fallen = self.detect_falls and is_fallen(self._state)
+        fallen = self.detect_falls and self._dyn.is_fallen()
         timeout = self._step_count >= self.max_steps
 
         terminated = fallen
@@ -113,39 +163,20 @@ class BikeEnv(gym.Env):
         return self._state.copy(), reward, terminated, truncated, {}
 
     def render(self) -> None:
-        try:
-            import pybullet as p  # optional dependency
-
-            if self._pb_client is None:
-                self._pb_client = p.connect(p.GUI)
-
-            x, y, lean, heading = self._state
-            p.resetDebugVisualizerCamera(
-                cameraDistance=3.0,
-                cameraYaw=float(np.degrees(heading)),
-                cameraPitch=-20,
-                cameraTargetPosition=[x, y, 0.5],
-            )
-        except Exception as exc:
-            print(f"[BikeEnv] PyBullet render unavailable: {exc}")
-            self.render_mode = None  # disable further attempts
+        # Main simulation runs in DIRECT mode for reproducible training.
+        # 3D videos are produced in a dedicated evaluation renderer.
+        return None
 
     def close(self) -> None:
-        if self._pb_client is not None:
-            try:
-                import pybullet as p
-
-                p.disconnect(self._pb_client)
-            except Exception:
-                pass
-            self._pb_client = None
+        self._dyn.close()
 
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
 
     def _compute_reward(self, fallen: bool) -> float:
-        x, y, lean, heading = self._state
+        lean = self._state[S.lean]
+        heading = self._state[S.heading]
         if fallen:
             return -100.0
         progress = BIKE_SPEED * np.cos(heading)

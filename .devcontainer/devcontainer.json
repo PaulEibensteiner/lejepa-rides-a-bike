@@ -7,6 +7,11 @@
   "remoteUser": "developer",
   "updateRemoteUserUID": true,
 
+  // Make sure we don't loose chats again
+  "mounts": [
+    "source=vscode-data,target=/root/.config/Code/User/globalStorage,type=volume"
+  ],
+
   // A standard, fully-writable container. Software that agents install at runtime
   // (apt, uv, pip, npm, ...) is confined to the container's own filesystem layers
   // and cannot modify the host OS. The host is only reachable through the

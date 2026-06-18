@@ -8,4 +8,6 @@
     "chat.tools.terminal.enableAutoApprove": true,
     "chat.tools.terminal.ignoreDefaultAutoApproveRules": true,
     "chat.tools.terminal.outputLocation": "terminal",
+    "chat.permissions.default": "autoApprove",
+    "python-envs.defaultEnvManager": "ms-python.python:venv"
 }

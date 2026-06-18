@@ -4,6 +4,9 @@ FROM nvidia/cuda:12.6.0-devel-ubuntu24.04
 # Avoid prompts during installation
 ENV DEBIAN_FRONTEND=noninteractive
 
+# Install uv early so we can provision the exact Python runtime version.
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
+
 # Install system dependencies, Node.js, Python, Git, and sudo.
 # sudo is included so AI agents inside the container can install additional
 # software at runtime. This only affects the container's own filesystem layers,
@@ -13,15 +16,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     ca-certificates \
     sudo \
-    python3 \
-    python3-venv \
-    python3-pip \
     && curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
     && apt-get install -y nodejs \
+    && uv python install 3.10.20 \
+    && PYBIN="$(uv python find 3.10.20)" \
+    && ln -sf "$PYBIN" /usr/local/bin/python3 \
+    && ln -sf "$PYBIN" /usr/local/bin/python \
     && rm -rf /var/lib/apt/lists/*
-
-# Install uv (the project's preferred Python package/venv manager)
-COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
 
 # Remove the default 'ubuntu' user (UID 1000) so we can reuse that UID
 RUN userdel -r ubuntu || true

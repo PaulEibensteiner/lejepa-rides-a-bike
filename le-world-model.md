@@ -111,8 +111,8 @@ def LeWorldModel(obs,actions,lambd=0.1):
     # next-embedding prediction loss
     pred_loss = F.mse_loss(emb[:, 1:] - next_emb[:, :-1])
     # step-wise sigreg (anti-collapse)
-    sigreg_loss = mean(SIGReg(emb.transpose(0, 1))
-    return pred_loss + lambd * sigreg_loss
+    regularization_loss = mean(SIGReg(emb.transpose(0, 1))
+    return pred_loss + lambd * regularization_loss
 ```
 
 The method introduces only two training hyperparameters: the number of random projections $M$ used in SIGReg and the regularization weight $\lambda$. Unless otherwise specified, we use $M=1024$ projections and $\lambda=0.1$. In practice, we observe that the number of projections has negligible impact on downstream performance (see Sec. 4 and App. G), making $\lambda$ the only effective hyperparameter to tune. This greatly simplifies hyperparameter selection, as $\lambda$ can be efficiently optimized using a simple bisection search with logarithmic complexity. We do not employ stop-gradient, exponential moving averages, or additional stabilization heuristics. Gradients are propagated through all components of the loss, and all parameters are optimized jointly in an end-to-end manner, resulting in a streamlined and easy-to-implement training procedure. The training logic is summarized in Alg. 1.

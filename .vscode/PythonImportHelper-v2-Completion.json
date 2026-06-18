@@ -1,0 +1,3165 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "BIKE_SPEED",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "FALL_THRESHOLD",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "PyBulletBikeDynamics",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "FALL_THRESHOLD",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "BIKE_SPEED",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "LATENT_DIM",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "BIKE_SPEED",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "patched_bike_urdf_path",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "BIKE_SPEED",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "WHEEL_TARGET_RAD_S",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "WHEEL_RADIUS_M",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "PyBulletBikeDynamics",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "PyBulletBikeDynamics",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "PyBulletBikeDynamics",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "FALL_THRESHOLD",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "PyBulletBikeDynamics",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "FALL_THRESHOLD",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_STEER",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "PyBulletBikeDynamics",
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "isExtraImport": true,
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "FullStateModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SigRegFullStateModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "FullStateModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "FullStateModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SigRegFullStateModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubsetModel",
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "isExtraImport": true,
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S_RATE",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S_RATE",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "isExtraImport": true,
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "pybullet",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pybullet",
+        "description": "pybullet",
+        "detail": "pybullet",
+        "documentation": {}
+    },
+    {
+        "label": "pybullet_data",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pybullet_data",
+        "description": "pybullet_data",
+        "detail": "pybullet_data",
+        "documentation": {}
+    },
+    {
+        "label": "gymnasium",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gymnasium",
+        "description": "gymnasium",
+        "detail": "gymnasium",
+        "documentation": {}
+    },
+    {
+        "label": "spaces",
+        "importPath": "gymnasium",
+        "description": "gymnasium",
+        "isExtraImport": true,
+        "detail": "gymnasium",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Protocol",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Output",
+        "importPath": "scipy.odr",
+        "description": "scipy.odr",
+        "isExtraImport": true,
+        "detail": "scipy.odr",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "IntEnum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "kstest",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "norm",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "isExtraImport": true,
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_dataset",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "StickyGaussianTorquePolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "build_tensors",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "StickyGaussianTorquePolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_episode",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "random_policy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_dataset",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "StickyGaussianTorquePolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "build_tensors",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_dataset",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "StickyGaussianTorquePolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "build_tensors",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_differentials",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_states",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_differentials",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_states",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_differentials",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_states",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_differentials",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_clamp_states",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "isExtraImport": true,
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "TrainingMetrics",
+        "importPath": "bike.metrics",
+        "description": "bike.metrics",
+        "isExtraImport": true,
+        "detail": "bike.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "TrainingMetrics",
+        "importPath": "bike.metrics",
+        "description": "bike.metrics",
+        "isExtraImport": true,
+        "detail": "bike.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "animate_episode_pybullet",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_metrics_bar",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_sigreg_distribution",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_state_traces",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_training_curves",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_trajectory_comparison",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_wind_sweep",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "animate_episode_pybullet",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_metrics_bar",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_state_traces",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_torque_traces",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_training_curves",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_trajectory_comparison",
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "isExtraImport": true,
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "choose_top3",
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "isExtraImport": true,
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "gather_outputs",
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "isExtraImport": true,
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "print_inventory",
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "isExtraImport": true,
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "write_results_readme",
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "isExtraImport": true,
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "TensorDataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "TensorDataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "TensorDataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.10/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "CEMPlanner",
+        "kind": 6,
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "peekOfCode": "class CEMPlanner:\n    \"\"\"Cross-Entropy Method planner.\n    Parameters\n    ----------\n    model          : learned dynamics model with .predict_delta method\n    action_dim     : dimensionality of the action vector (1)\n    horizon        : planning horizon H (number of look-ahead steps)\n    n_samples      : candidate action-sequence population size N\n    n_elite        : elite samples kept per iteration K\n    n_iters        : CEM refinement iterations per plan() call",
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_DT",
+        "kind": 5,
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "peekOfCode": "_DT = MODEL_DIFF_DT  # planner rollout step in model time (0.02s)\n_INIT_VAR = 25.0\n_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_differentials(diff: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp predicted per-step state increments to stable physical ranges.\"\"\"\n    diff = diff.copy()\n    if diff.shape[1] == 2:",
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_INIT_VAR",
+        "kind": 5,
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "peekOfCode": "_INIT_VAR = 25.0\n_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_differentials(diff: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp predicted per-step state increments to stable physical ranges.\"\"\"\n    diff = diff.copy()\n    if diff.shape[1] == 2:\n        diff[:, 0] = np.clip(diff[:, 0], -8.0 * MODEL_DIFF_DT, 8.0 * MODEL_DIFF_DT)",
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "_INIT_STD",
+        "kind": 5,
+        "importPath": "bike.cem",
+        "description": "bike.cem",
+        "peekOfCode": "_INIT_STD = float(np.sqrt(_INIT_VAR))\ndef _angle_diff(angle: np.ndarray, target: float) -> np.ndarray:\n    \"\"\"Shortest signed angular difference angle-target in [-pi, pi).\"\"\"\n    return (angle - target + np.pi) % (2.0 * np.pi) - np.pi\ndef _clamp_differentials(diff: np.ndarray) -> np.ndarray:\n    \"\"\"Clamp predicted per-step state increments to stable physical ranges.\"\"\"\n    diff = diff.copy()\n    if diff.shape[1] == 2:\n        diff[:, 0] = np.clip(diff[:, 0], -8.0 * MODEL_DIFF_DT, 8.0 * MODEL_DIFF_DT)\n        diff[:, 1] = np.clip(diff[:, 1], -12.0 * MODEL_DIFF_DT, 12.0 * MODEL_DIFF_DT)",
+        "detail": "bike.cem",
+        "documentation": {}
+    },
+    {
+        "label": "Renderer",
+        "kind": 6,
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "peekOfCode": "class Renderer:\n    _WIDTH: int = 960\n    _HEIGHT: int = 540\n    _FPS: int = 30\n    def __init__(self, cid, bikeid, path) -> None:\n        path = Path(path)\n        path.parent.mkdir(parents=True, exist_ok=True)\n        if shutil.which(\"ffmpeg\") is None:\n            raise RuntimeError(\"ffmpeg is required to produce mp4 outputs.\")\n        self.cid = cid",
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "PyBulletBikeDynamics",
+        "kind": 6,
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "peekOfCode": "class PyBulletBikeDynamics:\n    def __init__(self, video_path: str | None) -> None:\n        \"\"\"Initialize lazy PyBullet handles and cached last-observed state.\"\"\"\n        self.client_id: int | None = None\n        self.bike_id: int | None = None\n        self.last_state = np.zeros(LATENT_DIM, dtype=np.float32)\n        self.last_z: float = _BASE_Z\n        self.initialized = False\n        self.path = video_path\n        self.renderer = None",
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "patched_bike_urdf_path",
+        "kind": 2,
+        "importPath": "bike.dynamics",
+        "description": "bike.dynamics",
+        "peekOfCode": "def patched_bike_urdf_path() -> str:\n    \"\"\"Create and return a patched bike URDF with the wheel offset correction.\"\"\"\n    source_dir = Path(pybullet_data.getDataPath()) / \"bicycle\"\n    source_urdf = source_dir / \"bike.urdf\"\n    cache_dir = Path(tempfile.gettempdir()) / \"two_neurons_bike\"\n    cache_dir.mkdir(parents=True, exist_ok=True)\n    patched_urdf = cache_dir / \"bike_offset.urdf\"\n    tree = ET.parse(source_urdf)\n    root = tree.getroot()\n    # Reference correction from:",
+        "detail": "bike.dynamics",
+        "documentation": {}
+    },
+    {
+        "label": "BikeEnv",
+        "kind": 6,
+        "importPath": "bike.environment",
+        "description": "bike.environment",
+        "peekOfCode": "class BikeEnv(gym.Env):\n    \"\"\"Simulated velocity-aware bicycle environment.\"\"\"\n    metadata = {\"render_modes\": [\"human\"]}\n    STATE_DIM = LATENT_DIM  # 10\n    ACTION_DIM = 1\n    def __init__(\n        self,\n        render_mode: str | None = None,\n        max_steps: int = 15000,\n        dt: float = 0.001,",
+        "detail": "bike.environment",
+        "documentation": {}
+    },
+    {
+        "label": "EpisodeMetrics",
+        "kind": 6,
+        "importPath": "bike.metrics",
+        "description": "bike.metrics",
+        "peekOfCode": "class EpisodeMetrics:\n    \"\"\"Metrics from a single episode.\"\"\"\n    distance: float = 0.0\n    duration: int = 0\n    mean_speed: float = 0.0\n    fell: bool = False\n    final_lean: float = 0.0\n    rms_lean: float = 0.0\n    rms_heading_error: float = 0.0\n    path_length: float = 0.0",
+        "detail": "bike.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "TrainingMetrics",
+        "kind": 6,
+        "importPath": "bike.metrics",
+        "description": "bike.metrics",
+        "peekOfCode": "class TrainingMetrics:\n    \"\"\"Accumulator for metrics across multiple episodes.\"\"\"\n    episodes: List[EpisodeMetrics] = field(default_factory=list)\n    def add_episode(\n        self,\n        states: List[np.ndarray],\n        fell: bool,\n        actions: List[np.ndarray] | None = None,\n        keep_trajectory: bool = False,\n        target_heading: float = 0.0,",
+        "detail": "bike.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "SubsetModel",
+        "kind": 6,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "class SubsetModel(Protocol):\n    \"\"\"Protocol for trainable bike models with subset-index metadata.\n    Combines the model-specific prediction API with the nn.Module methods used\n    by training, evaluation, and checkpointing code.\n    \"\"\"\n    INPUT_INDICES: list[int]\n    OUTPUT_INDICES: list[int]\n    def to(self, *args: Any, **kwargs: Any) -> nn.Module: ...\n    def train(self, mode: bool = True) -> nn.Module: ...\n    def eval(self) -> nn.Module: ...",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SIGReg",
+        "kind": 6,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "class SIGReg(nn.Module):\n    \"\"\"Sketched Isotropic Gaussian Regularizer.\n    Encourages a batch of embeddings to follow an isotropic N(0,I)\n    distribution by minimising the Epps-Pulley characteristic-function\n    distance between the empirical distribution of one-dimensional random\n    projections and the standard normal CF.\n    Parameters\n    ----------\n    knots    : number of integration knots for the trapezoidal rule\n    num_proj : number of random unit-norm projection directions M",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleLeanHeadingModel",
+        "kind": 6,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "class SimpleLeanHeadingModel(nn.Module):\n    \"\"\"Model 1: 3-layer network predicting lean and heading changes only.\n    Useful for understanding whether position information is necessary.\n    \"\"\"\n    INPUT_INDICES = [\n        S.heading,\n        S.lean,\n        S.lean_dot,\n        S.steer_angle,\n        S.steer_rate,",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "FullStateModel",
+        "kind": 6,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "class FullStateModel(nn.Module):\n    \"\"\"Model 2: 3-layer network predicting the full state delta.\"\"\"\n    INPUT_DIM = ACTION_DIM + LATENT_DIM  # 9\n    OUTPUT_DIM = LATENT_DIM  # 8\n    def __init__(self) -> None:\n        super().__init__()\n        self.net = nn.Sequential(\n            nn.Linear(self.INPUT_DIM, 32),\n            nn.ReLU(),\n            nn.Linear(32, 32),",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "SigRegFullStateModel",
+        "kind": 6,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "class SigRegFullStateModel(nn.Module):\n    \"\"\"Model 3: encoder/predictor split with SIGReg on encoder output.\n    All hidden dimensions equal LATENT_DIM (8), i.e. \"latent variable\n    dimensions\", as specified in goal.md.\n    Architecture (5 linear layers):\n        Encoder Layer 1: Linear(8 → 8) → ReLU  → h1\n        Encoder Layer 2: Linear(8 → 8) → ReLU  → h2   ← SIGReg applied here\n        Predictor Layer 1: Linear(9 → 8) → ReLU  → h3   [input: h2 + action]\n        Predictor Layer 2: Linear(8 → 8) → ReLU  → h4\n        Predictor Layer 3: Linear(8 → 8)         → Δstate",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "prediction_loss",
+        "kind": 2,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "def prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()\n    err[:, heading_idx] = _wrap_to_pi_torch(err[:, heading_idx])\n    sq = err.square()\n    if pred.shape[-1] >= 8:\n        weights = pred.new_ones(pred.shape[-1])\n        sq = sq * weights",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# ── constants dimension ─────────────────────────────────────────────\nLATENT_DIM = 10  # [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate]\nACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "LATENT_DIM",
+        "kind": 5,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "LATENT_DIM = 10  # [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate]\nACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "ACTION_DIM",
+        "kind": 5,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "ACTION_DIM = 1  # [steering_angle]\nMODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_DIFF_DT",
+        "kind": 5,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "MODEL_DIFF_DT = 1.0 / 50.0  # Model-facing differential basis (0.02s)\nDIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "DIFF_SCALE_TO_MODEL",
+        "kind": 5,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "DIFF_SCALE_TO_MODEL = MODEL_DIFF_DT  # per-second rate -> per-0.02s increment\nACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()\n    err[:, heading_idx] = _wrap_to_pi_torch(err[:, heading_idx])",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "ACTION_SCALE",
+        "kind": 5,
+        "importPath": "bike.models",
+        "description": "bike.models",
+        "peekOfCode": "ACTION_SCALE = 100.0  # normalize torque-like steering action to O(1)\ndef _wrap_to_pi_torch(x: torch.Tensor) -> torch.Tensor:\n    return torch.remainder(x + torch.pi, 2.0 * torch.pi) - torch.pi\ndef prediction_loss(pred: torch.Tensor, target: torch.Tensor) -> torch.Tensor:\n    \"\"\"MSE with wrapped heading-delta error to avoid angle discontinuities.\"\"\"\n    err = pred - target\n    heading_idx = 1 if pred.shape[-1] in (2, 4) else 3\n    err = err.clone()\n    err[:, heading_idx] = _wrap_to_pi_torch(err[:, heading_idx])\n    sq = err.square()",
+        "detail": "bike.models",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "kind": 6,
+        "importPath": "bike.state",
+        "description": "bike.state",
+        "peekOfCode": "class S(IntEnum):\n    \"\"\"Index names for [x, y, lean, heading, x_dot, y_dot, lean_dot, heading_dot, steer_angle, steer_rate].\"\"\"\n    x = 0\n    y = 1\n    lean = 2\n    heading = 3\n    x_dot = 4\n    y_dot = 5\n    lean_dot = 6\n    heading_dot = 7",
+        "detail": "bike.state",
+        "documentation": {}
+    },
+    {
+        "label": "plot_training_curves",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def plot_training_curves(\n    loss_histories: dict[str, dict[str, list[float]]], save_path: Path\n) -> None:\n    _ensure_parent(save_path)\n    fig, axes = plt.subplots(1, 2, figsize=(12, 4))\n    for name, history in loss_histories.items():\n        color = _model_color(name)\n        axes[0].plot(history.get(\"pred_loss\", []), label=name, color=color)\n        sigreg_values = history.get(\"regularization_loss\", [])\n        if any(v > 0 for v in sigreg_values):",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_trajectory_comparison",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def plot_trajectory_comparison(\n    episodes_by_model: dict[str, list[dict[str, Any]]], save_path: Path\n) -> None:\n    _ensure_parent(save_path)\n    fig, ax = plt.subplots(figsize=(8, 6))\n    for model_name, episodes in episodes_by_model.items():\n        marker = _model_marker(model_name)\n        linestyle = _model_linestyle(model_name)\n        for i, episode in enumerate(episodes):\n            states = np.asarray(episode.get(\"states\", []), dtype=np.float32)",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_state_traces",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def plot_state_traces(\n    episodes_by_model: dict[str, list[dict[str, Any]]], save_path: Path\n) -> None:\n    _ensure_parent(save_path)\n    fig, axes = plt.subplots(2, 1, figsize=(10, 7), sharex=False)\n    for model_name, episodes in episodes_by_model.items():\n        if not episodes:\n            continue\n        marker = _model_marker(model_name)\n        linestyle = _model_linestyle(model_name)",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_metrics_bar",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def plot_metrics_bar(\n    model_summaries: dict[str, dict[str, float]], save_path: Path\n) -> None:\n    _ensure_parent(save_path)\n    names = list(model_summaries.keys())\n    success = [model_summaries[n].get(\"success_rate\", 0.0) for n in names]\n    distance = [model_summaries[n].get(\"mean_distance\", 0.0) for n in names]\n    rms_lean = [model_summaries[n].get(\"mean_rms_lean\", 0.0) for n in names]\n    x = np.arange(len(names))\n    w = 0.25",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_torque_traces",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def plot_torque_traces(\n    episodes_by_model: dict[str, list[dict[str, Any]]], save_path: Path\n) -> None:\n    _ensure_parent(save_path)\n    n_models = len(episodes_by_model)\n    fig, axes = plt.subplots(n_models, 1, figsize=(11, 3.2 * n_models), sharex=False)\n    if n_models == 1:\n        axes = [axes]\n    for ax, (model_name, episodes) in zip(axes, episodes_by_model.items()):\n        marker = _model_marker(model_name)",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "animate_episode_pybullet",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def animate_episode_pybullet(\n    initial_state: np.ndarray,\n    actions: np.ndarray,\n    save_path: Path,\n    fps: int = 30,\n    dt: float = 0.001,\n    frame_skip: int | None = None,\n) -> None:\n    _ensure_parent(save_path)\n    if shutil.which(\"ffmpeg\") is None:",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_sigreg_distribution",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def plot_sigreg_distribution(\n    model_name: str,\n    projection_values: np.ndarray,\n    save_path: Path,\n    ks_stats_path: Path | None = None,\n) -> dict[str, float]:\n    _ensure_parent(save_path)\n    fig, ax = plt.subplots(figsize=(8, 5))\n    ax.hist(\n        projection_values,",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_wind_sweep",
+        "kind": 2,
+        "importPath": "bike.visualization",
+        "description": "bike.visualization",
+        "peekOfCode": "def plot_wind_sweep(wind_results: dict[str, dict[str, float]], save_path: Path) -> None:\n    _ensure_parent(save_path)\n    fig, ax = plt.subplots(figsize=(8, 5))\n    for model_name, by_wind in wind_results.items():\n        xs = sorted(float(k) for k in by_wind.keys())\n        ys = [by_wind[f\"{x:.2f}\"] for x in xs]\n        ax.plot(xs, ys, marker=\"o\", label=model_name, color=_model_color(model_name))\n    ax.set_title(\"Wind Sweep: Survival Rate vs wind_std\")\n    ax.set_xlabel(\"wind_std\")\n    ax.set_ylabel(\"survival_rate\")",
+        "detail": "bike.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "debug.trace_manual",
+        "description": "debug.trace_manual",
+        "peekOfCode": "def run(dt: float, max_steps: int = 20000) -> None:\n    \"\"\"Roll out the manual policy and log diagnostics every 250 steps.\"\"\"\n    logger.info(\n        \"=== dt=%.6f s (%.1f Hz) | BIKE_SPEED=%.3f | back_wheel=%.3f rad/s \"\n        \"(=%.3f m/s ground) ===\",\n        dt,\n        1.0 / dt,\n        BIKE_SPEED,\n        WHEEL_TARGET_RAD_S,\n        WHEEL_TARGET_RAD_S * WHEEL_RADIUS_M,",
+        "detail": "debug.trace_manual",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "debug.trace_manual",
+        "description": "debug.trace_manual",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef run(dt: float, max_steps: int = 20000) -> None:\n    \"\"\"Roll out the manual policy and log diagnostics every 250 steps.\"\"\"\n    logger.info(\n        \"=== dt=%.6f s (%.1f Hz) | BIKE_SPEED=%.3f | back_wheel=%.3f rad/s \"\n        \"(=%.3f m/s ground) ===\",\n        dt,\n        1.0 / dt,\n        BIKE_SPEED,\n        WHEEL_TARGET_RAD_S,",
+        "detail": "debug.trace_manual",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "def load_model(model_key: str, results_dir: Path, device: torch.device):\n    model_cls, model_name = MODEL_REGISTRY[model_key]\n    model = model_cls().to(device)\n    ckpt = results_dir / f\"model_{model_key}\" / \"checkpoint.pt\"\n    if not ckpt.exists():\n        raise FileNotFoundError(f\"Missing checkpoint: {ckpt}\")\n    model.load_state_dict(torch.load(ckpt, map_location=device))\n    model.eval()\n    return model, model_name, ckpt\ndef run_eval_episode(",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "run_eval_episode",
+        "kind": 2,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "def run_eval_episode(\n    env: BikeEnv,\n    planner: CEMPlanner,\n    episode_seed: int | None = None,\n    control_interval_steps: int = 1,\n) -> dict[str, Any]:\n    state, _ = env.reset(seed=episode_seed)\n    planner.reset()\n    states = [state.copy()]\n    actions = []",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_model",
+        "kind": 2,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "def evaluate_model(\n    model_key: str,\n    results_dir: Path,\n    eval_episodes: int,\n    device: torch.device,\n    wind_std: float = 0.02,\n    seed: int = 7,\n) -> dict[str, Any]:\n    model, model_name, _ = load_model(model_key, results_dir, device)\n    env = BikeEnv(max_steps=15000, wind_std=wind_std)",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "sigreg_projection_values",
+        "kind": 2,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "def sigreg_projection_values(\n    model: SigRegFullStateModel, episodes: list[dict[str, Any]], device: torch.device\n) -> np.ndarray:\n    states = np.concatenate([ep[\"states\"][:-1] for ep in episodes], axis=0)\n    actions = np.concatenate([ep[\"actions\"] for ep in episodes], axis=0)\n    s_t = torch.tensor(states, dtype=torch.float32, device=device)\n    with torch.no_grad():\n        h2 = model.encode_state(s_t).cpu().numpy()\n    rng = np.random.default_rng(7)\n    direction = rng.normal(size=(h2.shape[1],))",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "def parse_args() -> argparse.Namespace:\n    p = argparse.ArgumentParser(\n        description=\"Evaluate trained bike models and generate observability artifacts.\"\n    )\n    p.add_argument(\"--model\", choices=[\"1\", \"2\", \"3\", \"all\"], default=\"all\")\n    p.add_argument(\"--results-dir\", type=str, default=\"results\")\n    p.add_argument(\"--eval-episodes\", type=int, default=20)\n    p.add_argument(\"--seed\", type=int, default=7)\n    p.add_argument(\"--wind-sweep\", action=\"store_true\")\n    p.add_argument(\"--wind-sweep-episodes\", type=int, default=20)",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "def main() -> None:\n    args = parse_args()\n    results_dir = Path(args.results_dir)\n    figures_dir = results_dir / \"figures\"\n    videos_dir = results_dir / \"videos\"\n    metrics_dir = results_dir / \"metrics\"\n    data_dir = results_dir / \"data\"\n    for d in [figures_dir, videos_dir, metrics_dir, data_dir]:\n        d.mkdir(parents=True, exist_ok=True)\n    device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_REGISTRY",
+        "kind": 5,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "MODEL_REGISTRY = {\n    \"1\": (SimpleLeanHeadingModel, \"Model 1\"),\n    \"2\": (FullStateModel, \"Model 2\"),\n    \"3\": (SigRegFullStateModel, \"Model 3\"),\n}\nWIND_LEVELS = [0.0, 0.01, 0.02, 0.05, 0.10]\ndef _load_json(path: Path) -> dict[str, Any]:\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef _save_json(path: Path, payload: Any) -> None:\n    path.parent.mkdir(parents=True, exist_ok=True)",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "WIND_LEVELS",
+        "kind": 5,
+        "importPath": "evaluate.evaluate",
+        "description": "evaluate.evaluate",
+        "peekOfCode": "WIND_LEVELS = [0.0, 0.01, 0.02, 0.05, 0.10]\ndef _load_json(path: Path) -> dict[str, Any]:\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef _save_json(path: Path, payload: Any) -> None:\n    path.parent.mkdir(parents=True, exist_ok=True)\n    path.write_text(json.dumps(payload, indent=2), encoding=\"utf-8\")\ndef load_model(model_key: str, results_dir: Path, device: torch.device):\n    model_cls, model_name = MODEL_REGISTRY[model_key]\n    model = model_cls().to(device)\n    ckpt = results_dir / f\"model_{model_key}\" / \"checkpoint.pt\"",
+        "detail": "evaluate.evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_cem",
+        "description": "evaluate.evaluate_cem",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_4/model_1/checkpoint.pt\"))\nmodel.eval()\nplanner = CEMPlanner(\n    model,\n    target_heading=0.0,\n    horizon=50,\n    loss_mode=\"lean_only\",\n    w_lean=10.0,\n)",
+        "detail": "evaluate.evaluate_cem",
+        "documentation": {}
+    },
+    {
+        "label": "planner",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_cem",
+        "description": "evaluate.evaluate_cem",
+        "peekOfCode": "planner = CEMPlanner(\n    model,\n    target_heading=0.0,\n    horizon=50,\n    loss_mode=\"lean_only\",\n    w_lean=10.0,\n)\nstate = np.array([0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0], dtype=np.float32)\naction_pos = np.full((1, 50), 100.0, dtype=np.float32)\naction_neg = np.full((1, 50), -100.0, dtype=np.float32)",
+        "detail": "evaluate.evaluate_cem",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_cem",
+        "description": "evaluate.evaluate_cem",
+        "peekOfCode": "state = np.array([0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0], dtype=np.float32)\naction_pos = np.full((1, 50), 100.0, dtype=np.float32)\naction_neg = np.full((1, 50), -100.0, dtype=np.float32)\naction_zero = np.full((1, 50), 0.0, dtype=np.float32)\nprint(\"Cost of +100:\", planner._rollout_costs(state, action_pos)[0])\nprint(\"Cost of 0:\", planner._rollout_costs(state, action_zero)[0])\nprint(\"Cost of -100:\", planner._rollout_costs(state, action_neg)[0])",
+        "detail": "evaluate.evaluate_cem",
+        "documentation": {}
+    },
+    {
+        "label": "action_pos",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_cem",
+        "description": "evaluate.evaluate_cem",
+        "peekOfCode": "action_pos = np.full((1, 50), 100.0, dtype=np.float32)\naction_neg = np.full((1, 50), -100.0, dtype=np.float32)\naction_zero = np.full((1, 50), 0.0, dtype=np.float32)\nprint(\"Cost of +100:\", planner._rollout_costs(state, action_pos)[0])\nprint(\"Cost of 0:\", planner._rollout_costs(state, action_zero)[0])\nprint(\"Cost of -100:\", planner._rollout_costs(state, action_neg)[0])",
+        "detail": "evaluate.evaluate_cem",
+        "documentation": {}
+    },
+    {
+        "label": "action_neg",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_cem",
+        "description": "evaluate.evaluate_cem",
+        "peekOfCode": "action_neg = np.full((1, 50), -100.0, dtype=np.float32)\naction_zero = np.full((1, 50), 0.0, dtype=np.float32)\nprint(\"Cost of +100:\", planner._rollout_costs(state, action_pos)[0])\nprint(\"Cost of 0:\", planner._rollout_costs(state, action_zero)[0])\nprint(\"Cost of -100:\", planner._rollout_costs(state, action_neg)[0])",
+        "detail": "evaluate.evaluate_cem",
+        "documentation": {}
+    },
+    {
+        "label": "action_zero",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_cem",
+        "description": "evaluate.evaluate_cem",
+        "peekOfCode": "action_zero = np.full((1, 50), 0.0, dtype=np.float32)\nprint(\"Cost of +100:\", planner._rollout_costs(state, action_pos)[0])\nprint(\"Cost of 0:\", planner._rollout_costs(state, action_zero)[0])\nprint(\"Cost of -100:\", planner._rollout_costs(state, action_neg)[0])",
+        "detail": "evaluate.evaluate_cem",
+        "documentation": {}
+    },
+    {
+        "label": "dyn",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "dyn = PyBulletBikeDynamics()\nstate1 = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\n# Turn wheels far right\nfor _ in range(200):\n    p.setJointMotorControl2(dyn.bike_id, 0, p.TORQUE_CONTROL, force=100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(dyn.client_id)\nobs1 = dyn._observe()\ndyn2 = PyBulletBikeDynamics()\nstate2 = dyn2.reset(np.array([0,0,0,0], dtype=np.float32))\n# Turn wheels far left",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "state1",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "state1 = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\n# Turn wheels far right\nfor _ in range(200):\n    p.setJointMotorControl2(dyn.bike_id, 0, p.TORQUE_CONTROL, force=100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(dyn.client_id)\nobs1 = dyn._observe()\ndyn2 = PyBulletBikeDynamics()\nstate2 = dyn2.reset(np.array([0,0,0,0], dtype=np.float32))\n# Turn wheels far left\nfor _ in range(200):",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "obs1",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "obs1 = dyn._observe()\ndyn2 = PyBulletBikeDynamics()\nstate2 = dyn2.reset(np.array([0,0,0,0], dtype=np.float32))\n# Turn wheels far left\nfor _ in range(200):\n    p.setJointMotorControl2(dyn2.bike_id, 0, p.TORQUE_CONTROL, force=-100.0, physicsClientId=dyn2.client_id)\n    p.stepSimulation(dyn2.client_id)\nobs2 = dyn2._observe()\n# Force obs2 to exactly match obs1's lean and velocities to create an identical state vector\nquat = p.getQuaternionFromEuler([obs1[2] + np.pi/2, 0, obs1[3]])",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "dyn2",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "dyn2 = PyBulletBikeDynamics()\nstate2 = dyn2.reset(np.array([0,0,0,0], dtype=np.float32))\n# Turn wheels far left\nfor _ in range(200):\n    p.setJointMotorControl2(dyn2.bike_id, 0, p.TORQUE_CONTROL, force=-100.0, physicsClientId=dyn2.client_id)\n    p.stepSimulation(dyn2.client_id)\nobs2 = dyn2._observe()\n# Force obs2 to exactly match obs1's lean and velocities to create an identical state vector\nquat = p.getQuaternionFromEuler([obs1[2] + np.pi/2, 0, obs1[3]])\np.resetBasePositionAndOrientation(dyn2.bike_id, [obs1[0], obs1[1], dyn2.last_z], quat, physicsClientId=dyn2.client_id)",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "state2",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "state2 = dyn2.reset(np.array([0,0,0,0], dtype=np.float32))\n# Turn wheels far left\nfor _ in range(200):\n    p.setJointMotorControl2(dyn2.bike_id, 0, p.TORQUE_CONTROL, force=-100.0, physicsClientId=dyn2.client_id)\n    p.stepSimulation(dyn2.client_id)\nobs2 = dyn2._observe()\n# Force obs2 to exactly match obs1's lean and velocities to create an identical state vector\nquat = p.getQuaternionFromEuler([obs1[2] + np.pi/2, 0, obs1[3]])\np.resetBasePositionAndOrientation(dyn2.bike_id, [obs1[0], obs1[1], dyn2.last_z], quat, physicsClientId=dyn2.client_id)\n# Apply 0 torque for 10 steps and see what happens to lean!",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "obs2",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "obs2 = dyn2._observe()\n# Force obs2 to exactly match obs1's lean and velocities to create an identical state vector\nquat = p.getQuaternionFromEuler([obs1[2] + np.pi/2, 0, obs1[3]])\np.resetBasePositionAndOrientation(dyn2.bike_id, [obs1[0], obs1[1], dyn2.last_z], quat, physicsClientId=dyn2.client_id)\n# Apply 0 torque for 10 steps and see what happens to lean!\ns1_list = []\ns2_list = []\nfor _ in range(10):\n    obs_a = dyn.step(obs1, 0.0, 0.02, 0.0)\n    obs_b = dyn2.step(obs2, 0.0, 0.02, 0.0)",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "quat",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "quat = p.getQuaternionFromEuler([obs1[2] + np.pi/2, 0, obs1[3]])\np.resetBasePositionAndOrientation(dyn2.bike_id, [obs1[0], obs1[1], dyn2.last_z], quat, physicsClientId=dyn2.client_id)\n# Apply 0 torque for 10 steps and see what happens to lean!\ns1_list = []\ns2_list = []\nfor _ in range(10):\n    obs_a = dyn.step(obs1, 0.0, 0.02, 0.0)\n    obs_b = dyn2.step(obs2, 0.0, 0.02, 0.0)\n    s1_list.append(obs_a[2])\n    s2_list.append(obs_b[2])",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "s1_list",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "s1_list = []\ns2_list = []\nfor _ in range(10):\n    obs_a = dyn.step(obs1, 0.0, 0.02, 0.0)\n    obs_b = dyn2.step(obs2, 0.0, 0.02, 0.0)\n    s1_list.append(obs_a[2])\n    s2_list.append(obs_b[2])\nprint(\"Trajectory A (wheels started right):\", [f\"{x:.4f}\" for x in s1_list])\nprint(\"Trajectory B (wheels started left):\", [f\"{x:.4f}\" for x in s2_list])",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "s2_list",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_hidden_state",
+        "description": "evaluate.evaluate_hidden_state",
+        "peekOfCode": "s2_list = []\nfor _ in range(10):\n    obs_a = dyn.step(obs1, 0.0, 0.02, 0.0)\n    obs_b = dyn2.step(obs2, 0.0, 0.02, 0.0)\n    s1_list.append(obs_a[2])\n    s2_list.append(obs_b[2])\nprint(\"Trajectory A (wheels started right):\", [f\"{x:.4f}\" for x in s1_list])\nprint(\"Trajectory B (wheels started left):\", [f\"{x:.4f}\" for x in s2_list])",
+        "detail": "evaluate.evaluate_hidden_state",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model",
+        "description": "evaluate.evaluate_model",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_4/model_1/checkpoint.pt\"))\nmodel.eval()\n# Let's test the response to different actions given an initial state\nstate = torch.tensor([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=torch.float32)\nprint(\"Testing Action = +100\")\na_pos = torch.tensor([[100.0]], dtype=torch.float32)\npred_pos = model.predict_delta(state, a_pos).detach().numpy()[0]\nprint(f\"Δlean: {pred_pos[0]:.4f}, Δheading: {pred_pos[1]:.4f}, Δlean_dot: {pred_pos[2]:.4f}, Δheading_dot: {pred_pos[3]:.4f}\")\nprint(\"\\nTesting Action = -100\")",
+        "detail": "evaluate.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model",
+        "description": "evaluate.evaluate_model",
+        "peekOfCode": "state = torch.tensor([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=torch.float32)\nprint(\"Testing Action = +100\")\na_pos = torch.tensor([[100.0]], dtype=torch.float32)\npred_pos = model.predict_delta(state, a_pos).detach().numpy()[0]\nprint(f\"Δlean: {pred_pos[0]:.4f}, Δheading: {pred_pos[1]:.4f}, Δlean_dot: {pred_pos[2]:.4f}, Δheading_dot: {pred_pos[3]:.4f}\")\nprint(\"\\nTesting Action = -100\")\na_neg = torch.tensor([[-100.0]], dtype=torch.float32)\npred_neg = model.predict_delta(state, a_neg).detach().numpy()[0]\nprint(f\"Δlean: {pred_neg[0]:.4f}, Δheading: {pred_neg[1]:.4f}, Δlean_dot: {pred_neg[2]:.4f}, Δheading_dot: {pred_neg[3]:.4f}\")",
+        "detail": "evaluate.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "a_pos",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model",
+        "description": "evaluate.evaluate_model",
+        "peekOfCode": "a_pos = torch.tensor([[100.0]], dtype=torch.float32)\npred_pos = model.predict_delta(state, a_pos).detach().numpy()[0]\nprint(f\"Δlean: {pred_pos[0]:.4f}, Δheading: {pred_pos[1]:.4f}, Δlean_dot: {pred_pos[2]:.4f}, Δheading_dot: {pred_pos[3]:.4f}\")\nprint(\"\\nTesting Action = -100\")\na_neg = torch.tensor([[-100.0]], dtype=torch.float32)\npred_neg = model.predict_delta(state, a_neg).detach().numpy()[0]\nprint(f\"Δlean: {pred_neg[0]:.4f}, Δheading: {pred_neg[1]:.4f}, Δlean_dot: {pred_neg[2]:.4f}, Δheading_dot: {pred_neg[3]:.4f}\")",
+        "detail": "evaluate.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "pred_pos",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model",
+        "description": "evaluate.evaluate_model",
+        "peekOfCode": "pred_pos = model.predict_delta(state, a_pos).detach().numpy()[0]\nprint(f\"Δlean: {pred_pos[0]:.4f}, Δheading: {pred_pos[1]:.4f}, Δlean_dot: {pred_pos[2]:.4f}, Δheading_dot: {pred_pos[3]:.4f}\")\nprint(\"\\nTesting Action = -100\")\na_neg = torch.tensor([[-100.0]], dtype=torch.float32)\npred_neg = model.predict_delta(state, a_neg).detach().numpy()[0]\nprint(f\"Δlean: {pred_neg[0]:.4f}, Δheading: {pred_neg[1]:.4f}, Δlean_dot: {pred_neg[2]:.4f}, Δheading_dot: {pred_neg[3]:.4f}\")",
+        "detail": "evaluate.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "a_neg",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model",
+        "description": "evaluate.evaluate_model",
+        "peekOfCode": "a_neg = torch.tensor([[-100.0]], dtype=torch.float32)\npred_neg = model.predict_delta(state, a_neg).detach().numpy()[0]\nprint(f\"Δlean: {pred_neg[0]:.4f}, Δheading: {pred_neg[1]:.4f}, Δlean_dot: {pred_neg[2]:.4f}, Δheading_dot: {pred_neg[3]:.4f}\")",
+        "detail": "evaluate.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "pred_neg",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model",
+        "description": "evaluate.evaluate_model",
+        "peekOfCode": "pred_neg = model.predict_delta(state, a_neg).detach().numpy()[0]\nprint(f\"Δlean: {pred_neg[0]:.4f}, Δheading: {pred_neg[1]:.4f}, Δlean_dot: {pred_neg[2]:.4f}, Δheading_dot: {pred_neg[3]:.4f}\")",
+        "detail": "evaluate.evaluate_model",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "env = BikeEnv(max_steps=1000, wind_std=0.0)\nmanual_policy = ManualControllerPolicy(desired_heading=0.0)\ns, a, ns = collect_dataset(env, manual_policy, n_episodes=5, control_interval_steps=20)\ns_t, a_t, d_t = build_tensors(s, a, ns, model_dt=MODEL_DIFF_DT)\ntarget = d_t[:, [2, 3, 6, 7]]\nvariance = torch.var(target, dim=0)\nprint(f\"Target Variances (lean, heading, l_dot, h_dot): {variance.numpy()}\")\nmodel = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "manual_policy",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "manual_policy = ManualControllerPolicy(desired_heading=0.0)\ns, a, ns = collect_dataset(env, manual_policy, n_episodes=5, control_interval_steps=20)\ns_t, a_t, d_t = build_tensors(s, a, ns, model_dt=MODEL_DIFF_DT)\ntarget = d_t[:, [2, 3, 6, 7]]\nvariance = torch.var(target, dim=0)\nprint(f\"Target Variances (lean, heading, l_dot, h_dot): {variance.numpy()}\")\nmodel = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()\npred = model.predict_delta(s_t, a_t).detach()",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "target = d_t[:, [2, 3, 6, 7]]\nvariance = torch.var(target, dim=0)\nprint(f\"Target Variances (lean, heading, l_dot, h_dot): {variance.numpy()}\")\nmodel = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()\npred = model.predict_delta(s_t, a_t).detach()\npred_variance = torch.var(pred, dim=0)\nprint(f\"Prediction Variances: {pred_variance.numpy()}\")\nmse = torch.mean((pred - target)**2, dim=0)",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "variance",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "variance = torch.var(target, dim=0)\nprint(f\"Target Variances (lean, heading, l_dot, h_dot): {variance.numpy()}\")\nmodel = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()\npred = model.predict_delta(s_t, a_t).detach()\npred_variance = torch.var(pred, dim=0)\nprint(f\"Prediction Variances: {pred_variance.numpy()}\")\nmse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Prediction MSE by component: {mse.numpy()}\")",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()\npred = model.predict_delta(s_t, a_t).detach()\npred_variance = torch.var(pred, dim=0)\nprint(f\"Prediction Variances: {pred_variance.numpy()}\")\nmse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Prediction MSE by component: {mse.numpy()}\")\nprint(f\"Relative MSE (MSE / Variance): {(mse / variance).numpy()}\")",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "pred",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "pred = model.predict_delta(s_t, a_t).detach()\npred_variance = torch.var(pred, dim=0)\nprint(f\"Prediction Variances: {pred_variance.numpy()}\")\nmse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Prediction MSE by component: {mse.numpy()}\")\nprint(f\"Relative MSE (MSE / Variance): {(mse / variance).numpy()}\")",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "pred_variance",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "pred_variance = torch.var(pred, dim=0)\nprint(f\"Prediction Variances: {pred_variance.numpy()}\")\nmse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Prediction MSE by component: {mse.numpy()}\")\nprint(f\"Relative MSE (MSE / Variance): {(mse / variance).numpy()}\")",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "mse",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_model_variance",
+        "description": "evaluate.evaluate_model_variance",
+        "peekOfCode": "mse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Prediction MSE by component: {mse.numpy()}\")\nprint(f\"Relative MSE (MSE / Variance): {(mse / variance).numpy()}\")",
+        "detail": "evaluate.evaluate_model_variance",
+        "documentation": {}
+    },
+    {
+        "label": "dyn",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_physics",
+        "description": "evaluate.evaluate_physics",
+        "peekOfCode": "dyn = PyBulletBikeDynamics()\nstate = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\n# Setup severe fall state\nquat = p.getQuaternionFromEuler([np.pi/2 - 0.7, 0, 0])\np.resetBasePositionAndOrientation(dyn.bike_id, [0,0,dyn.last_z], quat, physicsClientId=dyn.client_id)\n# Try to give it an angular velocity of -5 on lean\n# (p.resetBaseVelocity) \n# Note: x axis rotation rate...\np.resetBaseVelocity(dyn.bike_id, [5,0,0], [-5,0,0], physicsClientId=dyn.client_id)\nstate = dyn._observe()",
+        "detail": "evaluate.evaluate_physics",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_physics",
+        "description": "evaluate.evaluate_physics",
+        "peekOfCode": "state = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\n# Setup severe fall state\nquat = p.getQuaternionFromEuler([np.pi/2 - 0.7, 0, 0])\np.resetBasePositionAndOrientation(dyn.bike_id, [0,0,dyn.last_z], quat, physicsClientId=dyn.client_id)\n# Try to give it an angular velocity of -5 on lean\n# (p.resetBaseVelocity) \n# Note: x axis rotation rate...\np.resetBaseVelocity(dyn.bike_id, [5,0,0], [-5,0,0], physicsClientId=dyn.client_id)\nstate = dyn._observe()\nprint(\"Actual initial state:\", state[[2,6]])",
+        "detail": "evaluate.evaluate_physics",
+        "documentation": {}
+    },
+    {
+        "label": "quat",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_physics",
+        "description": "evaluate.evaluate_physics",
+        "peekOfCode": "quat = p.getQuaternionFromEuler([np.pi/2 - 0.7, 0, 0])\np.resetBasePositionAndOrientation(dyn.bike_id, [0,0,dyn.last_z], quat, physicsClientId=dyn.client_id)\n# Try to give it an angular velocity of -5 on lean\n# (p.resetBaseVelocity) \n# Note: x axis rotation rate...\np.resetBaseVelocity(dyn.bike_id, [5,0,0], [-5,0,0], physicsClientId=dyn.client_id)\nstate = dyn._observe()\nprint(\"Actual initial state:\", state[[2,6]])\nstates_pos = []\nfor _ in range(5):",
+        "detail": "evaluate.evaluate_physics",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_physics",
+        "description": "evaluate.evaluate_physics",
+        "peekOfCode": "state = dyn._observe()\nprint(\"Actual initial state:\", state[[2,6]])\nstates_pos = []\nfor _ in range(5):\n    state = dyn.step(state, 100.0, 0.02, 0.0)\n    states_pos.append(state[2])\n    print(\"Action 100 -> lean:\", state[2], \"lean_dot:\", state[6])",
+        "detail": "evaluate.evaluate_physics",
+        "documentation": {}
+    },
+    {
+        "label": "states_pos",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_physics",
+        "description": "evaluate.evaluate_physics",
+        "peekOfCode": "states_pos = []\nfor _ in range(5):\n    state = dyn.step(state, 100.0, 0.02, 0.0)\n    states_pos.append(state[2])\n    print(\"Action 100 -> lean:\", state[2], \"lean_dot:\", state[6])",
+        "detail": "evaluate.evaluate_physics",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_plan",
+        "description": "evaluate.evaluate_plan",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()\nplanner = CEMPlanner(\n    model,\n    target_heading=0.0,\n    horizon=10,\n    n_samples=500,\n    n_iters=5,\n    min_std=10.0,",
+        "detail": "evaluate.evaluate_plan",
+        "documentation": {}
+    },
+    {
+        "label": "planner",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_plan",
+        "description": "evaluate.evaluate_plan",
+        "peekOfCode": "planner = CEMPlanner(\n    model,\n    target_heading=0.0,\n    horizon=10,\n    n_samples=500,\n    n_iters=5,\n    min_std=10.0,\n    loss_mode=\"lean_only\",\n)\nstate = np.array([0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0], dtype=np.float32)",
+        "detail": "evaluate.evaluate_plan",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_plan",
+        "description": "evaluate.evaluate_plan",
+        "peekOfCode": "state = np.array([0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0], dtype=np.float32)\naction = planner.plan(state)\nprint(\"Chosen action:\", action[0])\n# Cost of a safe trajectory (+100)\na_pos = np.full((1, 10), 100.0, dtype=np.float32)\na_neg = np.full((1, 10), -100.0, dtype=np.float32)\nprint(\"Cost of +100 array:\", planner._rollout_costs(state, a_pos)[0])\nprint(\"Cost of -100 array:\", planner._rollout_costs(state, a_neg)[0])",
+        "detail": "evaluate.evaluate_plan",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_plan",
+        "description": "evaluate.evaluate_plan",
+        "peekOfCode": "action = planner.plan(state)\nprint(\"Chosen action:\", action[0])\n# Cost of a safe trajectory (+100)\na_pos = np.full((1, 10), 100.0, dtype=np.float32)\na_neg = np.full((1, 10), -100.0, dtype=np.float32)\nprint(\"Cost of +100 array:\", planner._rollout_costs(state, a_pos)[0])\nprint(\"Cost of -100 array:\", planner._rollout_costs(state, a_neg)[0])",
+        "detail": "evaluate.evaluate_plan",
+        "documentation": {}
+    },
+    {
+        "label": "a_pos",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_plan",
+        "description": "evaluate.evaluate_plan",
+        "peekOfCode": "a_pos = np.full((1, 10), 100.0, dtype=np.float32)\na_neg = np.full((1, 10), -100.0, dtype=np.float32)\nprint(\"Cost of +100 array:\", planner._rollout_costs(state, a_pos)[0])\nprint(\"Cost of -100 array:\", planner._rollout_costs(state, a_neg)[0])",
+        "detail": "evaluate.evaluate_plan",
+        "documentation": {}
+    },
+    {
+        "label": "a_neg",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_plan",
+        "description": "evaluate.evaluate_plan",
+        "peekOfCode": "a_neg = np.full((1, 10), -100.0, dtype=np.float32)\nprint(\"Cost of +100 array:\", planner._rollout_costs(state, a_pos)[0])\nprint(\"Cost of -100 array:\", planner._rollout_costs(state, a_neg)[0])",
+        "detail": "evaluate.evaluate_plan",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_start",
+        "description": "evaluate.evaluate_start",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()\nplanner = CEMPlanner(\n    model, target_heading=0.0, horizon=50, n_samples=200, n_iters=5, min_std=10.0, loss_mode=\"lean_only\"\n)\nstate = np.array([0.0, 0.0, -0.05, 0.0, 0.0, 0.0, 0.0, 0.0], dtype=np.float32)\naction = planner.plan(state)\nprint(\"Initial Chosen action:\", action[0])\n# Cost of a safe trajectory (+100) vs (-100) vs 0 from near 0",
+        "detail": "evaluate.evaluate_start",
+        "documentation": {}
+    },
+    {
+        "label": "planner",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_start",
+        "description": "evaluate.evaluate_start",
+        "peekOfCode": "planner = CEMPlanner(\n    model, target_heading=0.0, horizon=50, n_samples=200, n_iters=5, min_std=10.0, loss_mode=\"lean_only\"\n)\nstate = np.array([0.0, 0.0, -0.05, 0.0, 0.0, 0.0, 0.0, 0.0], dtype=np.float32)\naction = planner.plan(state)\nprint(\"Initial Chosen action:\", action[0])\n# Cost of a safe trajectory (+100) vs (-100) vs 0 from near 0\nfor a_val in [100.0, -100.0, 0.0]:\n    a_seq = np.full((1, 50), a_val, dtype=np.float32)\n    print(f\"Cost of {a_val} array:\", planner._rollout_costs(state, a_seq)[0])",
+        "detail": "evaluate.evaluate_start",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_start",
+        "description": "evaluate.evaluate_start",
+        "peekOfCode": "state = np.array([0.0, 0.0, -0.05, 0.0, 0.0, 0.0, 0.0, 0.0], dtype=np.float32)\naction = planner.plan(state)\nprint(\"Initial Chosen action:\", action[0])\n# Cost of a safe trajectory (+100) vs (-100) vs 0 from near 0\nfor a_val in [100.0, -100.0, 0.0]:\n    a_seq = np.full((1, 50), a_val, dtype=np.float32)\n    print(f\"Cost of {a_val} array:\", planner._rollout_costs(state, a_seq)[0])",
+        "detail": "evaluate.evaluate_start",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_start",
+        "description": "evaluate.evaluate_start",
+        "peekOfCode": "action = planner.plan(state)\nprint(\"Initial Chosen action:\", action[0])\n# Cost of a safe trajectory (+100) vs (-100) vs 0 from near 0\nfor a_val in [100.0, -100.0, 0.0]:\n    a_seq = np.full((1, 50), a_val, dtype=np.float32)\n    print(f\"Cost of {a_val} array:\", planner._rollout_costs(state, a_seq)[0])",
+        "detail": "evaluate.evaluate_start",
+        "documentation": {}
+    },
+    {
+        "label": "rollout_print",
+        "kind": 2,
+        "importPath": "evaluate.evaluate_traj",
+        "description": "evaluate.evaluate_traj",
+        "peekOfCode": "def rollout_print(action_val):\n    state = np.array([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=np.float32)\n    print(f\"\\nEvaluating action {action_val}:\")\n    for t in range(5):\n        a_t = torch.tensor([[action_val]], dtype=torch.float32)\n        state_t = torch.tensor(state, dtype=torch.float32)\n        delta_t = model.predict_delta(state_t, a_t)\n        delta_np = _clamp_differentials(delta_t.detach().numpy() * (0.02 / 0.02))\n        state[:, 2] += delta_np[:, 0]\n        state[:, 3] += delta_np[:, 1]",
+        "detail": "evaluate.evaluate_traj",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj",
+        "description": "evaluate.evaluate_traj",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_4/model_1/checkpoint.pt\"))\nmodel.eval()\ndef rollout_print(action_val):\n    state = np.array([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=np.float32)\n    print(f\"\\nEvaluating action {action_val}:\")\n    for t in range(5):\n        a_t = torch.tensor([[action_val]], dtype=torch.float32)\n        state_t = torch.tensor(state, dtype=torch.float32)\n        delta_t = model.predict_delta(state_t, a_t)",
+        "detail": "evaluate.evaluate_traj",
+        "documentation": {}
+    },
+    {
+        "label": "rollout_print",
+        "kind": 2,
+        "importPath": "evaluate.evaluate_traj2",
+        "description": "evaluate.evaluate_traj2",
+        "peekOfCode": "def rollout_print(action_val):\n    state = np.array([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=np.float32)\n    print(f\"\\nEvaluating action {action_val} (Analytical Integration):\")\n    total_cost = 0\n    for t in range(5):\n        a_t = torch.tensor([[action_val]], dtype=torch.float32)\n        state_t = torch.tensor(state, dtype=torch.float32)\n        delta_t = model.predict_delta(state_t, a_t)\n        delta_np = _clamp_differentials(delta_t.detach().numpy() * (0.02 / 0.02))\n        # Analytic Integration!",
+        "detail": "evaluate.evaluate_traj2",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj2",
+        "description": "evaluate.evaluate_traj2",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_4/model_1/checkpoint.pt\"))\nmodel.eval()\ndef rollout_print(action_val):\n    state = np.array([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=np.float32)\n    print(f\"\\nEvaluating action {action_val} (Analytical Integration):\")\n    total_cost = 0\n    for t in range(5):\n        a_t = torch.tensor([[action_val]], dtype=torch.float32)\n        state_t = torch.tensor(state, dtype=torch.float32)",
+        "detail": "evaluate.evaluate_traj2",
+        "documentation": {}
+    },
+    {
+        "label": "rollout_print",
+        "kind": 2,
+        "importPath": "evaluate.evaluate_traj3",
+        "description": "evaluate.evaluate_traj3",
+        "peekOfCode": "def rollout_print(action_val):\n    state = np.array([[0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, 0.0]], dtype=np.float32)\n    print(f\"\\nEvaluating action {action_val} (Analytical Integration):\")\n    total_cost = 0\n    for t in range(5):\n        a_t = torch.tensor([[action_val]], dtype=torch.float32)\n        state_t = torch.tensor(state, dtype=torch.float32)\n        delta_t = model.predict_delta(state_t, a_t)\n        delta_np = _clamp_differentials(delta_t.detach().numpy() * (0.02 / 0.02))\n        # Analytic Integration!",
+        "detail": "evaluate.evaluate_traj3",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj3",
+        "description": "evaluate.evaluate_traj3",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_4/model_1/checkpoint.pt\"))\nmodel.eval()\ndef rollout_print(action_val):\n    state = np.array([[0.0, 0.0, -0.5, 0.0, 0.0, 0.0, 0.0, 0.0]], dtype=np.float32)\n    print(f\"\\nEvaluating action {action_val} (Analytical Integration):\")\n    total_cost = 0\n    for t in range(5):\n        a_t = torch.tensor([[action_val]], dtype=torch.float32)\n        state_t = torch.tensor(state, dtype=torch.float32)",
+        "detail": "evaluate.evaluate_traj3",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nmodel.load_state_dict(torch.load(\"meins_6/model_1/checkpoint.pt\"))\nmodel.eval()\nstate = np.array([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=np.float32)\naction_pos = torch.tensor([[100.0]], dtype=torch.float32)\naction_neg = torch.tensor([[-100.0]], dtype=torch.float32)\na_zero = torch.tensor([[0.0]], dtype=torch.float32)\nprint(\"\\n--- Evaluate NN ---\")\nd_pos = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_pos).detach().numpy())\nd_neg = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_neg).detach().numpy())",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "state = np.array([[0.0, 0.0, -0.7, 0.0, 0.0, 0.0, -5.0, 0.0]], dtype=np.float32)\naction_pos = torch.tensor([[100.0]], dtype=torch.float32)\naction_neg = torch.tensor([[-100.0]], dtype=torch.float32)\na_zero = torch.tensor([[0.0]], dtype=torch.float32)\nprint(\"\\n--- Evaluate NN ---\")\nd_pos = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_pos).detach().numpy())\nd_neg = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_neg).detach().numpy())\nd_zero = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), a_zero).detach().numpy())\nprint(f\"Action +100 -> dlean_dot: {d_pos[0, 2]:.4f}\")\nprint(f\"Action -100 -> dlean_dot: {d_neg[0, 2]:.4f}\")",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "action_pos",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "action_pos = torch.tensor([[100.0]], dtype=torch.float32)\naction_neg = torch.tensor([[-100.0]], dtype=torch.float32)\na_zero = torch.tensor([[0.0]], dtype=torch.float32)\nprint(\"\\n--- Evaluate NN ---\")\nd_pos = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_pos).detach().numpy())\nd_neg = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_neg).detach().numpy())\nd_zero = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), a_zero).detach().numpy())\nprint(f\"Action +100 -> dlean_dot: {d_pos[0, 2]:.4f}\")\nprint(f\"Action -100 -> dlean_dot: {d_neg[0, 2]:.4f}\")\nprint(f\"Action    0 -> dlean_dot: {d_zero[0, 2]:.4f}\")",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "action_neg",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "action_neg = torch.tensor([[-100.0]], dtype=torch.float32)\na_zero = torch.tensor([[0.0]], dtype=torch.float32)\nprint(\"\\n--- Evaluate NN ---\")\nd_pos = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_pos).detach().numpy())\nd_neg = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_neg).detach().numpy())\nd_zero = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), a_zero).detach().numpy())\nprint(f\"Action +100 -> dlean_dot: {d_pos[0, 2]:.4f}\")\nprint(f\"Action -100 -> dlean_dot: {d_neg[0, 2]:.4f}\")\nprint(f\"Action    0 -> dlean_dot: {d_zero[0, 2]:.4f}\")",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "a_zero",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "a_zero = torch.tensor([[0.0]], dtype=torch.float32)\nprint(\"\\n--- Evaluate NN ---\")\nd_pos = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_pos).detach().numpy())\nd_neg = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_neg).detach().numpy())\nd_zero = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), a_zero).detach().numpy())\nprint(f\"Action +100 -> dlean_dot: {d_pos[0, 2]:.4f}\")\nprint(f\"Action -100 -> dlean_dot: {d_neg[0, 2]:.4f}\")\nprint(f\"Action    0 -> dlean_dot: {d_zero[0, 2]:.4f}\")",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "d_pos",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "d_pos = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_pos).detach().numpy())\nd_neg = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_neg).detach().numpy())\nd_zero = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), a_zero).detach().numpy())\nprint(f\"Action +100 -> dlean_dot: {d_pos[0, 2]:.4f}\")\nprint(f\"Action -100 -> dlean_dot: {d_neg[0, 2]:.4f}\")\nprint(f\"Action    0 -> dlean_dot: {d_zero[0, 2]:.4f}\")",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "d_neg",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "d_neg = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), action_neg).detach().numpy())\nd_zero = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), a_zero).detach().numpy())\nprint(f\"Action +100 -> dlean_dot: {d_pos[0, 2]:.4f}\")\nprint(f\"Action -100 -> dlean_dot: {d_neg[0, 2]:.4f}\")\nprint(f\"Action    0 -> dlean_dot: {d_zero[0, 2]:.4f}\")",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "d_zero",
+        "kind": 5,
+        "importPath": "evaluate.evaluate_traj4",
+        "description": "evaluate.evaluate_traj4",
+        "peekOfCode": "d_zero = _clamp_differentials(model.predict_delta(torch.tensor(state, dtype=torch.float32), a_zero).detach().numpy())\nprint(f\"Action +100 -> dlean_dot: {d_pos[0, 2]:.4f}\")\nprint(f\"Action -100 -> dlean_dot: {d_neg[0, 2]:.4f}\")\nprint(f\"Action    0 -> dlean_dot: {d_zero[0, 2]:.4f}\")",
+        "detail": "evaluate.evaluate_traj4",
+        "documentation": {}
+    },
+    {
+        "label": "gather_outputs",
+        "kind": 2,
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "peekOfCode": "def gather_outputs(results_dir: Path) -> dict[str, list[Path]]:\n    categories = {\n        \"checkpoints\": sorted(results_dir.glob(\"model_*/checkpoint.pt\")),\n        \"data\": sorted((results_dir / \"data\").glob(\"*.npz\")),\n        \"metrics\": (\n            sorted((results_dir / \"metrics\").glob(\"*.json\"))\n            + sorted((results_dir / \"metrics\").glob(\"*.csv\"))\n        ),\n        \"figures\": sorted((results_dir / \"figures\").glob(\"*.png\")),\n        \"videos\": sorted((results_dir / \"videos\").glob(\"*.mp4\")),",
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "print_inventory",
+        "kind": 2,
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "peekOfCode": "def print_inventory(categories: dict[str, list[Path]]) -> None:\n    for section, paths in categories.items():\n        print(f\"[{section}]\")\n        if not paths:\n            print(\"  (none)\")\n            continue\n        for p in paths:\n            print(f\"  {p.resolve()}\")\ndef write_results_readme(\n    results_dir: Path, categories: dict[str, list[Path]], top3: list[Path]",
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "write_results_readme",
+        "kind": 2,
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "peekOfCode": "def write_results_readme(\n    results_dir: Path, categories: dict[str, list[Path]], top3: list[Path]\n) -> Path:\n    out = results_dir / \"README.txt\"\n    lines: list[str] = []\n    lines.append(\"Bike RL Output Inspection Guide\")\n    lines.append(\"\")\n    lines.append(\"Best viewers:\")\n    lines.append(\"- MP4 videos: VS Code Explorer preview or host browser\")\n    lines.append(\"- PNG figures: VS Code image preview\")",
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "choose_top3",
+        "kind": 2,
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "peekOfCode": "def choose_top3(categories: dict[str, list[Path]]) -> list[Path]:\n    top: list[Path] = []\n    if categories[\"videos\"]:\n        top.append(categories[\"videos\"][0])\n    if categories[\"figures\"]:\n        pref = None\n        for p in categories[\"figures\"]:\n            if p.name == \"trajectory_comparison.png\":\n                pref = p\n                break",
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "evaluate.list_outputs",
+        "description": "evaluate.list_outputs",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser(\n        description=\"List generated bike experiment outputs\"\n    )\n    parser.add_argument(\"--results-dir\", type=str, default=\"results\")\n    parser.add_argument(\"--write-readme\", action=\"store_true\")\n    args = parser.parse_args()\n    results_dir = Path(args.results_dir)\n    categories = gather_outputs(results_dir)\n    print_inventory(categories)",
+        "detail": "evaluate.list_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "evaluate.sample_policy_video",
+        "description": "evaluate.sample_policy_video",
+        "peekOfCode": "def main() -> None:\n    \"\"\"Roll out one episode from a chosen policy and export an MP4.\n    Args:\n        None.\n    \"\"\"\n    args = _parse_args()\n    logging.basicConfig(level=logging.INFO, format=\"%(message)s\")\n    logger = logging.getLogger(__name__)\n    np.random.seed(args.seed)\n    env = BikeEnv(",
+        "detail": "evaluate.sample_policy_video",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "test.test_manual",
+        "description": "test.test_manual",
+        "peekOfCode": "env = BikeEnv(max_steps=15000, wind_std=0.0)\npolicy = ManualControllerPolicy()\ntotal_steps = 0\nfor _ in range(20):\n    state, _ = env.reset()\n    policy.reset_episode()\n    steps = 0\n    while True:\n        action = policy(state)\n        state, _, term, trunc, _ = env.step(action)",
+        "detail": "test.test_manual",
+        "documentation": {}
+    },
+    {
+        "label": "policy",
+        "kind": 5,
+        "importPath": "test.test_manual",
+        "description": "test.test_manual",
+        "peekOfCode": "policy = ManualControllerPolicy()\ntotal_steps = 0\nfor _ in range(20):\n    state, _ = env.reset()\n    policy.reset_episode()\n    steps = 0\n    while True:\n        action = policy(state)\n        state, _, term, trunc, _ = env.step(action)\n        steps += 1",
+        "detail": "test.test_manual",
+        "documentation": {}
+    },
+    {
+        "label": "total_steps",
+        "kind": 5,
+        "importPath": "test.test_manual",
+        "description": "test.test_manual",
+        "peekOfCode": "total_steps = 0\nfor _ in range(20):\n    state, _ = env.reset()\n    policy.reset_episode()\n    steps = 0\n    while True:\n        action = policy(state)\n        state, _, term, trunc, _ = env.step(action)\n        steps += 1\n        if term or trunc:",
+        "detail": "test.test_manual",
+        "documentation": {}
+    },
+    {
+        "label": "CustomManualController",
+        "kind": 6,
+        "importPath": "test.test_position",
+        "description": "test.test_position",
+        "peekOfCode": "class CustomManualController:\n    def __init__(self, desired_heading=0.0):\n        self.desired_heading = desired_heading\n        self.c1 = -1.0\n        self.c2 = -1.0     # P term for target lean\n        self.c3 = -0.5     # D term for lean\n    def __call__(self, state):\n        leaning = float(state[2])\n        heading = float(state[3])\n        leaning_dot = float(state[6])",
+        "detail": "test.test_position",
+        "documentation": {}
+    },
+    {
+        "label": "step_pos",
+        "kind": 2,
+        "importPath": "test.test_position",
+        "description": "test.test_position",
+        "peekOfCode": "def step_pos(dyn, state, steering_angle, dt, wind_std=0.0):\n    steering = float(np.clip(steering_angle, -1.0, 1.0))\n    p.setTimeStep(float(dt), physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(\n        dyn.bike_id,\n        0, # steer\n        p.POSITION_CONTROL,\n        targetPosition=steering,\n        force=50.0,\n        physicsClientId=dyn.client_id,",
+        "detail": "test.test_position",
+        "documentation": {}
+    },
+    {
+        "label": "dyn",
+        "kind": 5,
+        "importPath": "test.test_position",
+        "description": "test.test_position",
+        "peekOfCode": "dyn = PyBulletBikeDynamics()\nstate = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\npolicy = CustomManualController()\n# Override dynamics to use POSITION_CONTROL\ndef step_pos(dyn, state, steering_angle, dt, wind_std=0.0):\n    steering = float(np.clip(steering_angle, -1.0, 1.0))\n    p.setTimeStep(float(dt), physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(\n        dyn.bike_id,\n        0, # steer",
+        "detail": "test.test_position",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "test.test_position",
+        "description": "test.test_position",
+        "peekOfCode": "state = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\npolicy = CustomManualController()\n# Override dynamics to use POSITION_CONTROL\ndef step_pos(dyn, state, steering_angle, dt, wind_std=0.0):\n    steering = float(np.clip(steering_angle, -1.0, 1.0))\n    p.setTimeStep(float(dt), physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(\n        dyn.bike_id,\n        0, # steer\n        p.POSITION_CONTROL,",
+        "detail": "test.test_position",
+        "documentation": {}
+    },
+    {
+        "label": "policy",
+        "kind": 5,
+        "importPath": "test.test_position",
+        "description": "test.test_position",
+        "peekOfCode": "policy = CustomManualController()\n# Override dynamics to use POSITION_CONTROL\ndef step_pos(dyn, state, steering_angle, dt, wind_std=0.0):\n    steering = float(np.clip(steering_angle, -1.0, 1.0))\n    p.setTimeStep(float(dt), physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(\n        dyn.bike_id,\n        0, # steer\n        p.POSITION_CONTROL,\n        targetPosition=steering,",
+        "detail": "test.test_position",
+        "documentation": {}
+    },
+    {
+        "label": "steps",
+        "kind": 5,
+        "importPath": "test.test_position",
+        "description": "test.test_position",
+        "peekOfCode": "steps = 0\nfor _ in range(500):\n    action = policy(state)\n    state = step_pos(dyn, state, action[0], 0.02)\n    steps += 1\n    if abs(state[2]) > FALL_THRESHOLD:\n        print(f\"Fell at step {steps}\")\n        break\nelse:\n    print(\"Survived!\")",
+        "detail": "test.test_position",
+        "documentation": {}
+    },
+    {
+        "label": "CustomManualController",
+        "kind": 6,
+        "importPath": "test.test_position2",
+        "description": "test.test_position2",
+        "peekOfCode": "class CustomManualController:\n    def __init__(self, desired_heading=0.0, p=1.0, d=0.1):\n        self.desired_heading = desired_heading\n        self.c1 = -1.0\n        self.c2 = p\n        self.c3 = d\n    def __call__(self, state):\n        leaning = float(state[2])\n        heading = float(state[3])\n        leaning_dot = float(state[6])",
+        "detail": "test.test_position2",
+        "documentation": {}
+    },
+    {
+        "label": "step_pos",
+        "kind": 2,
+        "importPath": "test.test_position2",
+        "description": "test.test_position2",
+        "peekOfCode": "def step_pos(dyn, state, steering_angle, dt, wind_std=0.0):\n    steering = float(np.clip(steering_angle, -1.0, 1.0))\n    p.setTimeStep(float(dt), physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(dyn.bike_id, 0, p.POSITION_CONTROL, targetPosition=steering, force=100.0, physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(dyn.bike_id, 1, p.VELOCITY_CONTROL, targetVelocity=5.0, force=100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(physicsClientId=dyn.client_id)\n    obs = dyn._observe()\n    obs[0] += 5.0 * dt * math.cos(obs[3])\n    obs[1] += 5.0 * dt * math.sin(obs[3])\n    dyn.last_state = obs.copy()",
+        "detail": "test.test_position2",
+        "documentation": {}
+    },
+    {
+        "label": "dyn",
+        "kind": 5,
+        "importPath": "test.test_position2",
+        "description": "test.test_position2",
+        "peekOfCode": "dyn = PyBulletBikeDynamics()\ndef step_pos(dyn, state, steering_angle, dt, wind_std=0.0):\n    steering = float(np.clip(steering_angle, -1.0, 1.0))\n    p.setTimeStep(float(dt), physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(dyn.bike_id, 0, p.POSITION_CONTROL, targetPosition=steering, force=100.0, physicsClientId=dyn.client_id)\n    p.setJointMotorControl2(dyn.bike_id, 1, p.VELOCITY_CONTROL, targetVelocity=5.0, force=100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(physicsClientId=dyn.client_id)\n    obs = dyn._observe()\n    obs[0] += 5.0 * dt * math.cos(obs[3])\n    obs[1] += 5.0 * dt * math.sin(obs[3])",
+        "detail": "test.test_position2",
+        "documentation": {}
+    },
+    {
+        "label": "best_survive",
+        "kind": 5,
+        "importPath": "test.test_position2",
+        "description": "test.test_position2",
+        "peekOfCode": "best_survive = 0\nfor test_p in [0.5, 1.0, 2.0, 5.0]:\n    for test_d in [0.0, 0.1, 0.5, 1.0]:\n        state = dyn.reset(np.array([0,0,-0.1,0], dtype=np.float32))\n        policy = CustomManualController(0.0, test_p, test_d)\n        steps = 0\n        for _ in range(1000):\n            action = policy(state)\n            state = step_pos(dyn, state, action[0], 0.02)\n            steps += 1",
+        "detail": "test.test_position2",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "env = BikeEnv(max_steps=1000, wind_std=0.0)\nmanual_policy = ManualControllerPolicy(desired_heading=0.0)\ns, a, ns = collect_dataset(env, manual_policy, n_episodes=50, control_interval_steps=20)\ns_t, a_t, d_t = build_tensors(s, a, ns, model_dt=MODEL_DIFF_DT)\ntarget = d_t[:, [2, 3, 6, 7]]\nvariance = torch.var(target, dim=0)\nmodel = nn.Sequential(\n    nn.Linear(5, 64),\n    nn.ReLU(),\n    nn.Linear(64, 64),",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "manual_policy",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "manual_policy = ManualControllerPolicy(desired_heading=0.0)\ns, a, ns = collect_dataset(env, manual_policy, n_episodes=50, control_interval_steps=20)\ns_t, a_t, d_t = build_tensors(s, a, ns, model_dt=MODEL_DIFF_DT)\ntarget = d_t[:, [2, 3, 6, 7]]\nvariance = torch.var(target, dim=0)\nmodel = nn.Sequential(\n    nn.Linear(5, 64),\n    nn.ReLU(),\n    nn.Linear(64, 64),\n    nn.ReLU(),",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "target = d_t[:, [2, 3, 6, 7]]\nvariance = torch.var(target, dim=0)\nmodel = nn.Sequential(\n    nn.Linear(5, 64),\n    nn.ReLU(),\n    nn.Linear(64, 64),\n    nn.ReLU(),\n    nn.Linear(64, 4),\n)\noptimizer = optim.Adam(model.parameters(), lr=1e-3)",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "variance",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "variance = torch.var(target, dim=0)\nmodel = nn.Sequential(\n    nn.Linear(5, 64),\n    nn.ReLU(),\n    nn.Linear(64, 64),\n    nn.ReLU(),\n    nn.Linear(64, 4),\n)\noptimizer = optim.Adam(model.parameters(), lr=1e-3)\nloader = DataLoader(TensorDataset(s_t, a_t, target), batch_size=64, shuffle=True)",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "model = nn.Sequential(\n    nn.Linear(5, 64),\n    nn.ReLU(),\n    nn.Linear(64, 64),\n    nn.ReLU(),\n    nn.Linear(64, 4),\n)\noptimizer = optim.Adam(model.parameters(), lr=1e-3)\nloader = DataLoader(TensorDataset(s_t, a_t, target), batch_size=64, shuffle=True)\nfor epoch in range(100):",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "optimizer",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "optimizer = optim.Adam(model.parameters(), lr=1e-3)\nloader = DataLoader(TensorDataset(s_t, a_t, target), batch_size=64, shuffle=True)\nfor epoch in range(100):\n    for s_b, a_b, t_b in loader:\n        optimizer.zero_grad()\n        a_scaled = a_b / 100.0\n        lean_heading_dots = s_b[..., [2, 3, 6, 7]].clone()\n        lean_heading_dots[..., 2:4] *= 0.02\n        pred = model(torch.cat([a_scaled, lean_heading_dots], dim=-1))\n        loss = torch.mean((pred - t_b)**2)",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "loader = DataLoader(TensorDataset(s_t, a_t, target), batch_size=64, shuffle=True)\nfor epoch in range(100):\n    for s_b, a_b, t_b in loader:\n        optimizer.zero_grad()\n        a_scaled = a_b / 100.0\n        lean_heading_dots = s_b[..., [2, 3, 6, 7]].clone()\n        lean_heading_dots[..., 2:4] *= 0.02\n        pred = model(torch.cat([a_scaled, lean_heading_dots], dim=-1))\n        loss = torch.mean((pred - t_b)**2)\n        loss.backward()",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "pred",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "pred = []\ntarget_list = []\nwith torch.no_grad():\n    for s_b, a_b, t_b in loader:\n        a_scaled = a_b / 100.0\n        lean_heading_dots = s_b[..., [2, 3, 6, 7]].clone()\n        lean_heading_dots[..., 2:4] *= 0.02\n        p = model(torch.cat([a_scaled, lean_heading_dots], dim=-1))\n        pred.append(p)\n        target_list.append(t_b)",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "target_list",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "target_list = []\nwith torch.no_grad():\n    for s_b, a_b, t_b in loader:\n        a_scaled = a_b / 100.0\n        lean_heading_dots = s_b[..., [2, 3, 6, 7]].clone()\n        lean_heading_dots[..., 2:4] *= 0.02\n        p = model(torch.cat([a_scaled, lean_heading_dots], dim=-1))\n        pred.append(p)\n        target_list.append(t_b)\npred = torch.cat(pred, dim=0)",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "pred",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "pred = torch.cat(pred, dim=0)\ntarget = torch.cat(target_list, dim=0)\nmse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Bigger Model relative MSE with scaled action: {(mse / variance).numpy()}\")",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "target = torch.cat(target_list, dim=0)\nmse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Bigger Model relative MSE with scaled action: {(mse / variance).numpy()}\")",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "mse",
+        "kind": 5,
+        "importPath": "test.test_scaling",
+        "description": "test.test_scaling",
+        "peekOfCode": "mse = torch.mean((pred - target)**2, dim=0)\nprint(f\"Bigger Model relative MSE with scaled action: {(mse / variance).numpy()}\")",
+        "detail": "test.test_scaling",
+        "documentation": {}
+    },
+    {
+        "label": "ScalerWrapper",
+        "kind": 6,
+        "importPath": "test.test_scaling3",
+        "description": "test.test_scaling3",
+        "peekOfCode": "class ScalerWrapper(nn.Module):\n    def __init__(self, m):\n        super().__init__()\n        self.m = m\n    def forward(self, x):\n        return self.m(x)\n    def predict_delta(self, state, action):\n        return self.m.predict_delta(state, action / 100.0)\nmodel = SimpleLeanHeadingModel()\nwrapped = ScalerWrapper(model)",
+        "detail": "test.test_scaling3",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "test.test_scaling3",
+        "description": "test.test_scaling3",
+        "peekOfCode": "env = BikeEnv(max_steps=1000, wind_std=0.0)\nmanual_policy = ManualControllerPolicy(desired_heading=0.0)\ns, a, ns = collect_dataset(env, manual_policy, n_episodes=10, control_interval_steps=20)\ns_t, a_t, d_t = build_tensors(s, a, ns, model_dt=MODEL_DIFF_DT)\n# If we scale the action right inside the model wrapper\nclass ScalerWrapper(nn.Module):\n    def __init__(self, m):\n        super().__init__()\n        self.m = m\n    def forward(self, x):",
+        "detail": "test.test_scaling3",
+        "documentation": {}
+    },
+    {
+        "label": "manual_policy",
+        "kind": 5,
+        "importPath": "test.test_scaling3",
+        "description": "test.test_scaling3",
+        "peekOfCode": "manual_policy = ManualControllerPolicy(desired_heading=0.0)\ns, a, ns = collect_dataset(env, manual_policy, n_episodes=10, control_interval_steps=20)\ns_t, a_t, d_t = build_tensors(s, a, ns, model_dt=MODEL_DIFF_DT)\n# If we scale the action right inside the model wrapper\nclass ScalerWrapper(nn.Module):\n    def __init__(self, m):\n        super().__init__()\n        self.m = m\n    def forward(self, x):\n        return self.m(x)",
+        "detail": "test.test_scaling3",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "test.test_scaling3",
+        "description": "test.test_scaling3",
+        "peekOfCode": "model = SimpleLeanHeadingModel()\nwrapped = ScalerWrapper(model)\noptimizer = optim.Adam(model.parameters(), lr=1e-3)\nloader = DataLoader(TensorDataset(s_t, a_t, d_t[:, [2,3,6,7]]), batch_size=64, shuffle=True)\nfor epoch in range(10):\n    for s_b, a_b, t_b in loader:\n        optimizer.zero_grad()\n        pred = wrapped.predict_delta(s_b, a_b)\n        loss = torch.mean((pred - t_b)**2)\n        loss.backward()",
+        "detail": "test.test_scaling3",
+        "documentation": {}
+    },
+    {
+        "label": "wrapped",
+        "kind": 5,
+        "importPath": "test.test_scaling3",
+        "description": "test.test_scaling3",
+        "peekOfCode": "wrapped = ScalerWrapper(model)\noptimizer = optim.Adam(model.parameters(), lr=1e-3)\nloader = DataLoader(TensorDataset(s_t, a_t, d_t[:, [2,3,6,7]]), batch_size=64, shuffle=True)\nfor epoch in range(10):\n    for s_b, a_b, t_b in loader:\n        optimizer.zero_grad()\n        pred = wrapped.predict_delta(s_b, a_b)\n        loss = torch.mean((pred - t_b)**2)\n        loss.backward()\n        optimizer.step()",
+        "detail": "test.test_scaling3",
+        "documentation": {}
+    },
+    {
+        "label": "optimizer",
+        "kind": 5,
+        "importPath": "test.test_scaling3",
+        "description": "test.test_scaling3",
+        "peekOfCode": "optimizer = optim.Adam(model.parameters(), lr=1e-3)\nloader = DataLoader(TensorDataset(s_t, a_t, d_t[:, [2,3,6,7]]), batch_size=64, shuffle=True)\nfor epoch in range(10):\n    for s_b, a_b, t_b in loader:\n        optimizer.zero_grad()\n        pred = wrapped.predict_delta(s_b, a_b)\n        loss = torch.mean((pred - t_b)**2)\n        loss.backward()\n        optimizer.step()\nprint(\"ok\")",
+        "detail": "test.test_scaling3",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "kind": 5,
+        "importPath": "test.test_scaling3",
+        "description": "test.test_scaling3",
+        "peekOfCode": "loader = DataLoader(TensorDataset(s_t, a_t, d_t[:, [2,3,6,7]]), batch_size=64, shuffle=True)\nfor epoch in range(10):\n    for s_b, a_b, t_b in loader:\n        optimizer.zero_grad()\n        pred = wrapped.predict_delta(s_b, a_b)\n        loss = torch.mean((pred - t_b)**2)\n        loss.backward()\n        optimizer.step()\nprint(\"ok\")",
+        "detail": "test.test_scaling3",
+        "documentation": {}
+    },
+    {
+        "label": "bikesim",
+        "kind": 6,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "class bikesim:\n    def __init__(self):\n        p.connect(p.GUI)\n        #p.connect(p.DIRECT)\n        #p.setPhysicsEngineParameter(numSubSteps=0)\n        p.setGravity(0,0,-10)\n        p.setRealTimeSimulation(0)\n        p.setAdditionalSearchPath(pybullet_data.getDataPath())\n        plane=p.loadURDF(\"plane.urdf\",[0,0,0], useFixedBase=False)\n        p.changeDynamics(plane,-1, mass=0,lateralFriction=10, linearDamping=0, angularDamping=0)",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "compute_desired_angle",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def compute_desired_angle(pd, p):\n    rel_pos = np.array(p) - np.array(pd)\n    return np.arctan2(rel_pos[1], rel_pos[0])\ndef get_square_path(w=15):\n    square_path = [[w, 0], [w, w], [0, w], [0, 0]]\n    return square_path\ndef get_circle_path(r=20, N=20):\n    circle_path = [[r*np.sin(3.1415 * 2*i / N), r*np.cos(3.1415 * 2*i/N)-r] for i in range(N)]\n    return circle_path\ndef run_controller_to_follow_path(sim, path, parameters=None):",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_square_path",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def get_square_path(w=15):\n    square_path = [[w, 0], [w, w], [0, w], [0, 0]]\n    return square_path\ndef get_circle_path(r=20, N=20):\n    circle_path = [[r*np.sin(3.1415 * 2*i / N), r*np.cos(3.1415 * 2*i/N)-r] for i in range(N)]\n    return circle_path\ndef run_controller_to_follow_path(sim, path, parameters=None):\n    sim.pedalling = True\n    sim.reset()\n    sim.timestep = 0.000",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_circle_path",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def get_circle_path(r=20, N=20):\n    circle_path = [[r*np.sin(3.1415 * 2*i / N), r*np.cos(3.1415 * 2*i/N)-r] for i in range(N)]\n    return circle_path\ndef run_controller_to_follow_path(sim, path, parameters=None):\n    sim.pedalling = True\n    sim.reset()\n    sim.timestep = 0.000\n    current_pt_index = 0\n    current_pt = path[current_pt_index]\n    max_iters = 15000",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "run_controller_to_follow_path",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def run_controller_to_follow_path(sim, path, parameters=None):\n    sim.pedalling = True\n    sim.reset()\n    sim.timestep = 0.000\n    current_pt_index = 0\n    current_pt = path[current_pt_index]\n    max_iters = 15000\n    reward = 0\n    iters = 0\n    positions = []",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "angle_diff",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def angle_diff(a1, a2):\n    tmp = a1-a2\n    if abs(tmp) < np.pi:\n        return tmp\n    elif tmp > np.pi:\n        return -(2 * np.pi - tmp)\n    else:\n        return (2 * np.pi + tmp)\ndef nn_controller(observation, desired_heading=-1, parameters=None):\n    x, y, z, heading, heading_dot, leaning, leaning_dot = observation",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "nn_controller",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def nn_controller(observation, desired_heading=-1, parameters=None):\n    x, y, z, heading, heading_dot, leaning, leaning_dot = observation\n    if parameters is None:\n        c1 = -1\n        c2 = 100\n        c3 = 100\n    else:\n        c1 = parameters[0]\n        c2 = parameters[1]\n        c3 = parameters[2]",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "tune_nn_controller",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def tune_nn_controller():\n    sim = bikesim()\n    best_param = None\n    best_reward = None\n    for _ in range(10000):\n        parameters = np.random.uniform(low=0, high=100, size=3)\n        parameters[0] = parameters[0] * -1 / 20\n        r_circle, _ = run_controller_to_follow_path(sim, get_circle_path(), parameters)\n        r_square, _ = run_controller_to_follow_path(sim, get_square_path(), parameters)\n        r = r_circle + r_square",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "rl_controller",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def rl_controller():\n    pass\ndef make_pushing_plot():\n    sim = bikesim()\n    sim.initial_speed = 3\n    plt.figure(figsize=(10,5))\n    for _ in range(1000):\n        sim.reset()\n        sim.visualize()\n    plt.xlim([0, 35])",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "make_pushing_plot",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def make_pushing_plot():\n    sim = bikesim()\n    sim.initial_speed = 3\n    plt.figure(figsize=(10,5))\n    for _ in range(1000):\n        sim.reset()\n        sim.visualize()\n    plt.xlim([0, 35])\n    plt.ylim([-12, 12])\n    ax = plt.gca()",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "test_heading_computation",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def test_heading_computation():\n    desired_heading = compute_desired_angle([0, 0], [5, 0])\n    print(desired_heading)\n    desired_heading = compute_desired_angle([5, 0], [5, 5])\n    print(desired_heading)\n    desired_heading = compute_desired_angle([5, 5], [0, 5])\n    print(desired_heading)\n    desired_heading = compute_desired_angle([0, 5], [0, 0])\n    print(desired_heading)\n    print(\"circle:\")",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "test_angle_diff",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def test_angle_diff():\n    print(angle_diff(3, -3))\n    print(angle_diff(-3, 3))\ndef compare_and_plot_controllers():\n    # found parameters\n    found_parameters = [-0.95345113, 22.95930387, 27.7614634]\n    hand_tuned_parameters = [-1, 100, 100]\n    #hand_tuned_parameters_v2 = [-0.5, 200, 50]\n    sim = bikesim()\n    circle_path = get_circle_path()",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "compare_and_plot_controllers",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def compare_and_plot_controllers():\n    # found parameters\n    found_parameters = [-0.95345113, 22.95930387, 27.7614634]\n    hand_tuned_parameters = [-1, 100, 100]\n    #hand_tuned_parameters_v2 = [-0.5, 200, 50]\n    sim = bikesim()\n    circle_path = get_circle_path()\n    r_c_f, found_circle_path = run_controller_to_follow_path(sim, circle_path, found_parameters)\n    r_c_ht, ht_circle_path = run_controller_to_follow_path(sim, circle_path, hand_tuned_parameters)\n    plt.plot(*np.array(circle_path).T, color='black', ls='--')",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "two_neurons_bike.main",
+        "description": "two_neurons_bike.main",
+        "peekOfCode": "def main():\n    #make_pushing_plot()\n    #test_heading_computation()\n    #test_angle_diff()\n    # found parameters\n    #sim = bikesim()\n    #rc, _ = run_controller_to_follow_path(sim, get_circle_path(), parameters, True)\n    #rs = run_controller_to_follow_path(sim, get_square_path(), parameters, True)\n    #print(rc + rs)\n    #tune_nn_controller()",
+        "detail": "two_neurons_bike.main",
+        "documentation": {}
+    },
+    {
+        "label": "StickyGaussianTorquePolicy",
+        "kind": 6,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "class StickyGaussianTorquePolicy:\n    \"\"\"Stateful exploration policy with temporally correlated torque.\n    Per decision step: with probability p_new sample torque ~ N(0, sigma),\n    otherwise keep previous torque. The first step of each episode uses 0 torque.\n    \"\"\"\n    def __init__(self, p_new: float = 0.01, sigma: float = 10.0) -> None:\n        self.p_new = float(p_new)\n        self.sigma = float(sigma)\n        self.prev_torque = 0.0\n        self._first_step = True",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "ManualControllerPolicy",
+        "kind": 6,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "class ManualControllerPolicy:\n    \"\"\"Reference-style heading-to-lean controller for data collection.\"\"\"\n    def __init__(\n        self,\n        desired_heading: float | None = 0.0,\n        c1: float = -1.0,\n        c2: float = 100.0,\n        c3: float = 100.0,\n        torque_diversion_factor: float = 10,\n    ) -> None:",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "random_policy",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def random_policy(_state: np.ndarray) -> np.ndarray:\n    return np.random.uniform(-MAX_STEER, MAX_STEER, size=(1,)).astype(np.float32)\ndef _angle_diff(a1: float, a2: float) -> float:\n    tmp = a1 - a2\n    if abs(tmp) < np.pi:\n        return float(tmp)\n    if tmp > np.pi:\n        return float(-(2 * np.pi - tmp))\n    return float(2 * np.pi + tmp)\nclass StickyGaussianTorquePolicy:",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_episode",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def collect_episode(\n    env: BikeEnv,\n    policy,\n    episode_seed: int | None = None,\n    control_interval_steps: int = 1,\n) -> tuple[list[np.ndarray], list[np.ndarray], list[np.ndarray], bool]:\n    states, actions, next_states = [], [], []\n    if hasattr(policy, \"reset_episode\"):\n        policy.reset_episode()\n    state, _ = env.reset(seed=episode_seed)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_dataset",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def collect_dataset(\n    env: BikeEnv,\n    policy,\n    n_episodes: int,\n    metrics: TrainingMetrics | None = None,\n    base_seed: int | None = None,\n    control_interval_steps: int = 1,\n) -> tuple[list[np.ndarray], list[np.ndarray], list[np.ndarray]]:\n    all_s, all_a, all_ns = [], [], []\n    for episode_idx in range(n_episodes):",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "build_tensors",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def build_tensors(\n    states: list[np.ndarray],\n    actions: list[np.ndarray],\n    next_states: list[np.ndarray],\n    model_dt: float = MODEL_DIFF_DT,\n) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:\n    s_t = torch.tensor(np.array(states), dtype=torch.float32)\n    a_t = torch.tensor(np.array(actions), dtype=torch.float32)\n    next_t = torch.tensor(np.array(next_states), dtype=torch.float32)\n    # Model outputs are state increments over the model step (0.02s).",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "split_train_val",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def split_train_val(\n    s_t: torch.Tensor,\n    a_t: torch.Tensor,\n    d_t: torch.Tensor,\n    val_ratio: float = 0.2,\n    seed: int | None = None,\n) -> tuple[\n    tuple[torch.Tensor, torch.Tensor, torch.Tensor],\n    tuple[torch.Tensor, torch.Tensor, torch.Tensor],\n]:",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "train_world_model",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def train_world_model(\n    model: SubsetModel,\n    shared_data,\n    *,\n    epochs: int,\n    batch_size: int,\n    lr: float,\n    device: torch.device,\n) -> tuple[dict[str, list[float]], float]:\n    print(\"\\n[Phase 1] Training for {epochs} epochs using shared random dataset...\")",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_prediction_mse",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def evaluate_prediction_mse(\n    model: SubsetModel,\n    s_t: torch.Tensor,\n    a_t: torch.Tensor,\n    d_t: torch.Tensor,\n    device: torch.device,\n) -> float:\n    model.eval()\n    pred = model.predict_delta(s_t.to(device), a_t.to(device))\n    return float(model.loss(pred, d_t.to(device))[0].item())",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "cem_episode",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def cem_episode(\n    env: BikeEnv,\n    planner: CEMPlanner,\n    metrics: TrainingMetrics | None = None,\n    keep_trajectory: bool = False,\n    episode_seed: int | None = None,\n    control_interval_steps: int = 1,\n    on_step: Callable[[], None] | None = None,\n) -> dict[str, Any]:\n    state, _ = env.reset(seed=episode_seed)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "validate_world_model_cem",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def validate_world_model_cem(\n    model,\n    history,\n    model_name: str,\n    model_key: str,\n    *,\n    eval_episodes: int,\n    seed: int,\n    results_dir: Path,\n    eval_max_steps: int = 10_000,",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def parse_args() -> argparse.Namespace:\n    p = argparse.ArgumentParser(\n        description=(\n            \"Train bike dynamics models and persist full observability artifacts.\"\n        )\n    )\n    p.add_argument(\"--model\", choices=[\"1\", \"2\", \"3\", \"all\"], default=\"all\")\n    p.add_argument(\"--num-episodes\", type=int, default=50)\n    p.add_argument(\"--epochs\", type=int, default=200)\n    p.add_argument(\"--eval-episodes\", type=int, default=20)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "collect_data",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def collect_data(args) -> dict[str, Any]:\n    # Collect one shared random dataset and one shared train/val split\n    # so every selected model is trained and evaluated on the same data.\n    pre_env = BikeEnv(max_steps=15000, wind_std=args.wind_std)\n    data_control_interval_steps = max(1, int(round(MODEL_DIFF_DT / pre_env.dt)))\n    dataset_policy = StickyGaussianTorquePolicy(p_new=0.1, sigma=20.0)\n    manual_policy = ManualControllerPolicy(desired_heading=0.0)\n    n_manual = int(round(args.num_episodes * args.manual_data_fraction))\n    n_sticky = max(0, args.num_episodes - n_manual)\n    print(",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "make_plots",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def make_plots(outputs: dict[str, dict[str, Any]], figure_dir: Path, model_summaries):\n    figure_dir.mkdir(parents=True, exist_ok=True)\n    loss_histories = {name: out[\"history\"] for name, out in outputs.items()}\n    episodes_by_model = {\n        name: [\n            {\n                \"states\": r[\"states\"].tolist(),\n                \"actions\": r[\"actions\"].tolist(),\n                \"fell\": r[\"fell\"],\n                \"duration\": r[\"duration\"],",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def main() -> None:\n    args = parse_args()\n    args.manual_data_fraction = float(np.clip(args.manual_data_fraction, 0.0, 1.0))\n    random.seed(args.seed)\n    np.random.seed(args.seed)\n    torch.manual_seed(args.seed)\n    if torch.cuda.is_available():\n        torch.cuda.manual_seed_all(args.seed)\n    device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n    print(f\"Device : {device}\")",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_REGISTRY",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "MODEL_REGISTRY = {\n    \"1\": (SimpleLeanHeadingModel, \"Model 1\"),\n    \"2\": (FullStateModel, \"Model 2\"),\n    \"3\": (SigRegFullStateModel, \"Model 3\"),\n}\ndef random_policy(_state: np.ndarray) -> np.ndarray:\n    return np.random.uniform(-MAX_STEER, MAX_STEER, size=(1,)).astype(np.float32)\ndef _angle_diff(a1: float, a2: float) -> float:\n    tmp = a1 - a2\n    if abs(tmp) < np.pi:",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "dyn",
+        "kind": 5,
+        "importPath": "verify_steer",
+        "description": "verify_steer",
+        "peekOfCode": "dyn = PyBulletBikeDynamics()\nstate = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\n# Apply positive torque for 50 steps\nfor _ in range(50):\n    p.setJointMotorControl2(dyn.bike_id, 0, p.TORQUE_CONTROL, force=100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(dyn.client_id)\nangle = p.getJointState(dyn.bike_id, 0, physicsClientId=dyn.client_id)[0]\nprint(f\"Angle after +100 torque: {angle:.4f}\")\nstate = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\nfor _ in range(50):",
+        "detail": "verify_steer",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "verify_steer",
+        "description": "verify_steer",
+        "peekOfCode": "state = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\n# Apply positive torque for 50 steps\nfor _ in range(50):\n    p.setJointMotorControl2(dyn.bike_id, 0, p.TORQUE_CONTROL, force=100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(dyn.client_id)\nangle = p.getJointState(dyn.bike_id, 0, physicsClientId=dyn.client_id)[0]\nprint(f\"Angle after +100 torque: {angle:.4f}\")\nstate = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\nfor _ in range(50):\n    p.setJointMotorControl2(dyn.bike_id, 0, p.TORQUE_CONTROL, force=-100.0, physicsClientId=dyn.client_id)",
+        "detail": "verify_steer",
+        "documentation": {}
+    },
+    {
+        "label": "angle",
+        "kind": 5,
+        "importPath": "verify_steer",
+        "description": "verify_steer",
+        "peekOfCode": "angle = p.getJointState(dyn.bike_id, 0, physicsClientId=dyn.client_id)[0]\nprint(f\"Angle after +100 torque: {angle:.4f}\")\nstate = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\nfor _ in range(50):\n    p.setJointMotorControl2(dyn.bike_id, 0, p.TORQUE_CONTROL, force=-100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(dyn.client_id)\nangle = p.getJointState(dyn.bike_id, 0, physicsClientId=dyn.client_id)[0]\nprint(f\"Angle after -100 torque: {angle:.4f}\")",
+        "detail": "verify_steer",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "verify_steer",
+        "description": "verify_steer",
+        "peekOfCode": "state = dyn.reset(np.array([0,0,0,0], dtype=np.float32))\nfor _ in range(50):\n    p.setJointMotorControl2(dyn.bike_id, 0, p.TORQUE_CONTROL, force=-100.0, physicsClientId=dyn.client_id)\n    p.stepSimulation(dyn.client_id)\nangle = p.getJointState(dyn.bike_id, 0, physicsClientId=dyn.client_id)[0]\nprint(f\"Angle after -100 torque: {angle:.4f}\")",
+        "detail": "verify_steer",
+        "documentation": {}
+    },
+    {
+        "label": "angle",
+        "kind": 5,
+        "importPath": "verify_steer",
+        "description": "verify_steer",
+        "peekOfCode": "angle = p.getJointState(dyn.bike_id, 0, physicsClientId=dyn.client_id)[0]\nprint(f\"Angle after -100 torque: {angle:.4f}\")",
+        "detail": "verify_steer",
+        "documentation": {}
+    }
+]

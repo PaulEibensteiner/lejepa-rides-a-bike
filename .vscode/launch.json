@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "train minimal",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "program": "${workspaceFolder}/train.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "args": [
+                "--model", "1",
+                "--num-episodes", "1",
+                "--epochs", "1",
+                "--eval-episodes", "1",
+                "--eval-max-steps", "20",
+                "--batch-size", "16",
+                "--skip-plots",
+                "--wind-std", "0"
+            ]
+        },
+        {
+            "name": "train proper",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "program": "${workspaceFolder}/train.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "args": [
+                "--model", "1",
+                "--num-episodes", "50",
+                "--epochs", "50",
+                "--eval-episodes", "1",
+                "--eval-max-steps", "20",
+                "--batch-size", "50",
+                "--skip-plots",
+                "--wind-std", "0"
+            ]
+        },
+        {
+            "name": "make video",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "evaluate.sample_policy_video",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "args": [
+                "--policy", "manual",
+                "--output", "results/videos/manual_policy.mp4",
+                "--wind-std", "0",
+                "--max-steps", "10000",
+                "--c1", "-1",
+                "--c2", "40",
+                "--c3", "40"
+            ]
+        }
+    ]
+}

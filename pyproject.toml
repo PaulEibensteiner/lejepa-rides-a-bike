@@ -1,0 +1,45 @@
+[project]
+name = "lejepa-rides-a-bike"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "gymnasium",
+  "matplotlib",
+  "tqdm",
+  "pybullet",
+  "scipy",
+  "opencv-python>=4.13.0.92",
+]
+
+[project.optional-dependencies]
+cpu = [
+  "torch",
+]
+cu126 = [
+  "torch",
+]
+
+[tool.uv]
+conflicts = [
+  [
+    { extra = "cpu" },
+    { extra = "cu126" },
+  ],
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu", extra = "cpu" },
+  { index = "pytorch-cu126", extra = "cu126" },
+]
